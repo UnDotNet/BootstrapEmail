@@ -1,4 +1,4 @@
-![bootstrapemail](https://raw.githubusercontent.com/UnDotNet/HtmlToText/main/assets/htmltotext_logo.png) 
+![bootstrapemail](https://raw.githubusercontent.com/UnDotNet/BootstrapEmail/main/assets/bootstrapemail_logo.png) 
 # UnDotNet.BootstrapEmail
 
 Ported from [BootstrapEmail](https://bootstrapemail.com).  Their excellent [templates](https://app.bootstrapemail.com/templates/pricing) compile fine under .NET.  Highly recommend checking them out!
