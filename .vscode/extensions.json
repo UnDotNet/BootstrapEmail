@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "antfu.iconify",
+    "antfu.goto-alias",
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss",
+    "dbaeumer.vscode-eslint",
+    "vue.volar"
+  ]
+}

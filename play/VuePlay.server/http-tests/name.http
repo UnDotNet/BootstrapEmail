@@ -1,0 +1,12 @@
+### set export variable
+# these are automatically called if no cache
+# @name json
+GET https://httpbin.org/json
+
+### set global variable
+# these are not automatically called if no cache
+GET https://httpbin.org/json
+
+{{
+  $global.mydata = response.parsedBody.slideshow.author
+}}

@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>annotations</Nullable>
+        <LangVersion>preview</LangVersion>
+        <RootNamespace>UnDotNet.BootstrapEmail</RootNamespace>
+        <GenerateManifests>true</GenerateManifests>
+        <Version>1.0.1</Version>
+        
+        <Authors>John Campion</Authors>
+        <PackageTags>bootstrap;email;fluentemail;templates</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIconUrl>https://raw.githubusercontent.com/UnDotNet/BootstrapEmail/main/assets/bootstrapemail_logo.png</PackageIconUrl>
+        <PackageIcon>bootstrapemail_logo.png</PackageIcon>
+        <PackageProjectUrl>https://github.com/UnDotNet/BootstrapEmail</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/UnDotNet/BootstrapEmail</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <DebugSymbols>true</DebugSymbols>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <AssetsDirectory>../assets</AssetsDirectory>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AngleSharp" Version="1.0.4" />
+      <PackageReference Include="AngleSharp.XPath" Version="2.0.3" />
+      <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="6.0.0" Condition="'$(TargetFramework)' == 'net6.0'" />
+      <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="8.0.0" Condition="'$(TargetFramework)' == 'net8.0'" />
+      <PackageReference Include="NUglify" Version="1.20.7" />
+      <PackageReference Include="PreMailer.Net" Version="2.4.0" />
+      <PackageReference Include="UnDotNet.HtmlToText" Version="1.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Templates\body.html" />
+      <EmbeddedResource Include="Templates\bootstrap-email.css" />
+      <EmbeddedResource Include="Templates\bootstrap-head.css" />
+      <EmbeddedResource Include="Templates\container.html" />
+      <EmbeddedResource Include="Templates\div.html" />
+      <EmbeddedResource Include="Templates\layout.html" />
+      <EmbeddedResource Include="Templates\table-left.html" />
+      <EmbeddedResource Include="Templates\table-to-tbody.html" />
+      <EmbeddedResource Include="Templates\table-to-tr.html" />
+      <EmbeddedResource Include="Templates\table.html" />
+      <EmbeddedResource Include="Templates\td.html" />
+      <EmbeddedResource Include="Templates\tr.html" />
+      <None Remove="Core\bootstrap-email.scss" />
+      <EmbeddedResource Include="Core\bootstrap-email.scss" />
+      <None Remove="Core\bootstrap-email.css" />
+      <EmbeddedResource Include="Core\bootstrap-email.css" />
+      <None Remove="Core\bootstrap-email.css.map" />
+      <EmbeddedResource Include="Core\bootstrap-email.css.map" />
+      <None Remove="Core\bootstrap-head.scss" />
+      <EmbeddedResource Include="Core\bootstrap-head.scss" />
+      <None Remove="Core\bootstrap-head.css" />
+      <EmbeddedResource Include="Core\bootstrap-head.css" />
+      <None Remove="Core\bootstrap-head.css.map" />
+      <EmbeddedResource Include="Core\bootstrap-head.css.map" />
+      <None Remove="Core\templates\body.html" />
+      <None Remove="Core\templates\container.html" />
+      <None Remove="Core\templates\div.html" />
+      <None Remove="Core\templates\table.html" />
+      <None Remove="Core\templates\table-left.html" />
+      <None Remove="Core\templates\table-to-tbody.html" />
+      <None Remove="Core\templates\table-to-tr.html" />
+      <None Remove="Core\templates\td.html" />
+      <None Remove="Core\templates\tr.html" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="UnDotNet.BootstrapEmail.Tests" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" Visible="false" PackagePath="\"/>
+        <None Include="$(AssetsDirectory)/bootstrapemail_logo.png" Pack="true" Visible="false" PackagePath=""/>
+    </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>preview</LangVersion>
+        <RootNamespace>UnDotNet.BootstrapEmail.Sass</RootNamespace>
+        <GenerateManifests>true</GenerateManifests>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="8.0.0-preview.7.23375.9" />
+        <PackageReference Include="DartSassHost" Version="1.0.6" />
+        <PackageReference Include="JavaScriptEngineSwitcher.V8" Version="3.21.5" />
+        <PackageReference Include="Microsoft.ClearScript.Complete" Version="7.4.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\UnDotNet.BootstrapEmail\UnDotNet.BootstrapEmail.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="bootstrap-email.scss" />
+      <EmbeddedResource Include="bootstrap-head.scss" />
+      <EmbeddedResource Include="scss\components\_alert.scss" />
+      <EmbeddedResource Include="scss\components\_badge.scss" />
+      <EmbeddedResource Include="scss\components\_button.scss" />
+      <EmbeddedResource Include="scss\components\_card.scss" />
+      <EmbeddedResource Include="scss\components\_container.scss" />
+      <EmbeddedResource Include="scss\components\_grid.scss" />
+      <EmbeddedResource Include="scss\components\_hr.scss" />
+      <EmbeddedResource Include="scss\components\_image.scss" />
+      <EmbeddedResource Include="scss\components\_preview.scss" />
+      <EmbeddedResource Include="scss\components\_stack.scss" />
+      <EmbeddedResource Include="scss\components\_table.scss" />
+      <EmbeddedResource Include="scss\helpers\_functions.scss" />
+      <EmbeddedResource Include="scss\helpers\_mixins.scss" />
+      <EmbeddedResource Include="scss\helpers\_selectors_for_utils.scss" />
+      <EmbeddedResource Include="scss\utilities\_background.scss" />
+      <EmbeddedResource Include="scss\utilities\_border-radius.scss" />
+      <EmbeddedResource Include="scss\utilities\_border.scss" />
+      <EmbeddedResource Include="scss\utilities\_color.scss" />
+      <EmbeddedResource Include="scss\utilities\_display.scss" />
+      <EmbeddedResource Include="scss\utilities\_sizing.scss" />
+      <EmbeddedResource Include="scss\utilities\_spacing.scss" />
+      <EmbeddedResource Include="scss\utilities\_text-decoration.scss" />
+      <EmbeddedResource Include="scss\utilities\_typography.scss" />
+      <EmbeddedResource Include="scss\utilities\_valign.scss" />
+      <EmbeddedResource Include="scss\variables\_body.scss" />
+      <EmbeddedResource Include="scss\variables\_borders.scss" />
+      <EmbeddedResource Include="scss\variables\_buttons.scss" />
+      <EmbeddedResource Include="scss\variables\_colors.scss" />
+      <EmbeddedResource Include="scss\variables\_tables.scss" />
+      <EmbeddedResource Include="scss\variables\_typography.scss" />
+      <EmbeddedResource Include="scss\variables\_utilities.scss" />
+      <EmbeddedResource Include="scss\_helpers.scss" />
+      <EmbeddedResource Include="scss\_reboot_email.scss" />
+      <EmbeddedResource Include="scss\_reboot_head.scss" />
+      <EmbeddedResource Include="scss\_variables.scss" />
+    </ItemGroup>
+
+</Project>

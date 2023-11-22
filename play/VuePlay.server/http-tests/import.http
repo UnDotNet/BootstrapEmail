@@ -1,0 +1,12 @@
+### use $global variable
+# if not set, the global setter is not automatically called 
+POST https://httpbin.org/anything
+{{$global.mydata}}
+
+
+### use import variable
+# the imported variable is automatically called if not cached
+# @import ./name.http
+# @ref json
+POST https://httpbin.org/anything
+{{json.slideshow.author}}

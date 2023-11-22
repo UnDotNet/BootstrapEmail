@@ -1,0 +1,20 @@
+{
+  "environments": {
+    "$shared": {
+      "host": "https://localhost:5001"
+    },
+    "dev": {
+      "user": "mario",
+      "password": "123456"
+    },
+    "prod": {
+      "user": "mario",
+      "password": "password$ecure123"
+    }
+  },
+  "request": {
+    "https": {
+      "rejectUnauthorized": false
+    }
+  }
+}

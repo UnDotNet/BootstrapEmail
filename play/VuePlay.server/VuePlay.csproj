@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+  <PropertyGroup Label="SPA Config">
+    <SpaRoot>..\vueplay.client\</SpaRoot>
+    <SpaClientUrl>https://localhost:5002/</SpaClientUrl>
+    <SpaLaunchCommand>pnpm dev</SpaLaunchCommand>
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.SpaYarp" Version="2.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.7.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
+    <PackageReference Include="dotenv.net" Version="3.1.2" />  
+    <PackageReference Include="jcamp.FluentEmail.Postmark" Version="3.5.1" />  
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\UnDotNet.BootstrapEmail.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="http-tests\.httpyac.json" />
+    <None Include="http-tests\.httpyac.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="pnpm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="pnpm run generate" />
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaRoot).output\public\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>wwwroot\%(RecursiveDir)%(FileName)%(Extension)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+
+</Project>

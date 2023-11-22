@@ -1,0 +1,89 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "NET 8.0 Watch",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["watch"],
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": [
+          {
+            "regexp": ".",
+            "file": 1,
+            "location": 2,
+            "message": 3
+          }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*Building....*$",
+          "endsPattern": "^.*Application started.*$"
+        }
+      },
+      "presentation": {
+        "echo": false,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "detail": "Starts NET 8.0 Watch with Hot Reload",
+      "promptOnClose": false,
+      "options": {
+        "cwd": "play/VuePlay.Server",
+        "env": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+      }
+    },
+    {
+      "label": "Nuxt Server",
+      "command": "pnpm",
+      "type": "shell",
+      "args": ["dev"],
+      "problemMatcher": {
+        "pattern": [
+          {
+            "regexp": ".",
+            "file": 1,
+            "location": 2,
+            "message": 3
+          }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*Nuxi 3.0.0.*$",
+          "endsPattern": "^.*Nitro built in.*$"
+        }
+      },
+      "isBackground": true,
+      "presentation": {
+        "echo": false,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "detail": "Start the Nuxt Dev Server",
+      "promptOnClose": false,
+      "options": {
+        "cwd": "play/vueplay.client"
+      }
+    },
+    {
+      "label": "Start Nuxt Server and NET 8.0 Watch",
+      "detail": "Launches all dev servers for full Hot Reload",
+      "dependsOn": ["Nuxt Server", "NET 8.0 Watch"],
+      "dependsOrder": "sequence",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
