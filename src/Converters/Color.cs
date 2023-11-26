@@ -23,8 +23,8 @@ internal class Color(IHtmlDocument doc) : Base<Color>(doc)
             var classes = node.ClassName;
             foreach (var className in classes.Split(" "))
             {
-                if (!className.StartsWith("dark:bg-")) continue;
-                var color = className.Replace("dark:bg-", "dark-bg-");
+                if (!className.StartsWith("dark:")) continue;
+                var color = className.Replace("dark:", "dark-");
                 node.ClassList.Remove(className);
                 node.ClassList.Add(color);
             }
