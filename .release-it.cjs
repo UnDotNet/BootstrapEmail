@@ -8,18 +8,19 @@
 
 module.exports = {
   plugins: {
-    'release-it-changelogen': {
-      excludeAuthors: ['John Campion'],
+    "release-it-changelogen": {
+      excludeAuthors: ["John Campion"],
     },
-    'release-it-dotnet': {
+    "release-it-dotnet": {
+      build: true,
       publish: true,
-      csprojFile: './src/UnDotNet.BootstrapEmail.csproj',
+      csprojFile: "./src/UnDotNet.BootstrapEmail.csproj",
     },
   },
   git: {
     requireCleanWorkingDir: false,
-    tagName: 'v${version}',
-    commitMessage: 'chore(release): v${version}',
+    tagName: "v${version}",
+    commitMessage: "chore(release): v${version}",
   },
   github: {
     release: true,
@@ -27,4 +28,4 @@ module.exports = {
   npm: {
     publish: false,
   },
-}
+};
