@@ -1,7 +1,0 @@
-@each $prefix in $breakpoints {
-  @each $display in $display-type {
-    .d-#{$prefix}#{$display} {
-      display: $display;
-    }
-  }
-}

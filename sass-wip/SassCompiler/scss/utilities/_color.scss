@@ -1,9 +1,0 @@
-@each $name, $color in $all-colors {
-  @include color-util('.text-#{$name}') {
-    color: $color;
-  }
-}
-
-@include color-util('.text-muted') {
-  color: $gray-600;
-}

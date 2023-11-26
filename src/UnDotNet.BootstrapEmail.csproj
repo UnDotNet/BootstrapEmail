@@ -39,8 +39,6 @@
 
     <ItemGroup>
       <EmbeddedResource Include="Templates\body.html"/>
-      <EmbeddedResource Include="Templates\bootstrap-email.css"/>
-      <EmbeddedResource Include="Templates\bootstrap-head.css"/>
       <EmbeddedResource Include="Templates\container.html"/>
       <EmbeddedResource Include="Templates\div.html"/>
       <EmbeddedResource Include="Templates\layout.html"/>
@@ -50,27 +48,8 @@
       <EmbeddedResource Include="Templates\table.html"/>
       <EmbeddedResource Include="Templates\td.html"/>
       <EmbeddedResource Include="Templates\tr.html"/>
-      <None Remove="Core\bootstrap-email.scss"/>
-      <EmbeddedResource Include="Core\bootstrap-email.scss"/>
-      <None Remove="Core\bootstrap-email.css"/>
-      <EmbeddedResource Include="Core\bootstrap-email.css"/>
-      <None Remove="Core\bootstrap-email.css.map"/>
-      <EmbeddedResource Include="Core\bootstrap-email.css.map"/>
-      <None Remove="Core\bootstrap-head.scss"/>
-      <EmbeddedResource Include="Core\bootstrap-head.scss"/>
-      <None Remove="Core\bootstrap-head.css"/>
-      <EmbeddedResource Include="Core\bootstrap-head.css"/>
-      <None Remove="Core\bootstrap-head.css.map"/>
-      <EmbeddedResource Include="Core\bootstrap-head.css.map"/>
-      <None Remove="Core\templates\body.html"/>
-      <None Remove="Core\templates\container.html"/>
-      <None Remove="Core\templates\div.html"/>
-      <None Remove="Core\templates\table.html"/>
-      <None Remove="Core\templates\table-left.html"/>
-      <None Remove="Core\templates\table-to-tbody.html"/>
-      <None Remove="Core\templates\table-to-tr.html"/>
-      <None Remove="Core\templates\td.html"/>
-      <None Remove="Core\templates\tr.html"/>
+      <EmbeddedResource Include="Sass\bootstrap-email.css"/>
+      <EmbeddedResource Include="Sass\bootstrap-head.css"/>
     </ItemGroup>
 
     <ItemGroup>

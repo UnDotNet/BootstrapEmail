@@ -72,14 +72,14 @@ public class BootstrapCompiler
     private void SassLoadPaths()
     {
         var assembly = typeof(Badge).GetTypeInfo().Assembly;
-        using var stream = assembly.GetManifestResourceStream($"UnDotNet.BootstrapEmail.Templates.bootstrap-head.css");
+        using var stream = assembly.GetManifestResourceStream($"UnDotNet.BootstrapEmail.Sass.bootstrap-head.css");
         if (stream is null)
             throw new InvalidOperationException("Embedded resource bootstrap-head.css was not found!");
         using var reader = new StreamReader(stream);
         Constants.SassCacheHead = reader.ReadToEnd();
 
         using var stream2 =
-            assembly.GetManifestResourceStream($"UnDotNet.BootstrapEmail.Templates.bootstrap-email.css");
+            assembly.GetManifestResourceStream($"UnDotNet.BootstrapEmail.Sass.bootstrap-email.css");
         if (stream2 is null)
             throw new InvalidOperationException("Embedded resource bootstrap-email.css was not found!");
         using var reader2 = new StreamReader(stream2);
