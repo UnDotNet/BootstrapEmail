@@ -7,7 +7,7 @@
         <LangVersion>preview</LangVersion>
         <RootNamespace>UnDotNet.BootstrapEmail</RootNamespace>
         <GenerateManifests>true</GenerateManifests>
-        <Version>1.1.0</Version>
+        <Version>1.1.1</Version>
         
         <Authors>John Campion</Authors>
         <PackageTags>bootstrap;email;fluentemail;templates</PackageTags>

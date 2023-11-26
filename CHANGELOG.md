@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.1
+
+[compare changes](https://github.com/UnDotNet/BootstrapEmail/compare/v1.1.0...v1.1.1)
+
+### 🩹 Fixes
+
+- Build mistake ([62bae75](https://github.com/UnDotNet/BootstrapEmail/commit/62bae75))
+
 ## v1.1.0
 
 [compare changes](https://github.com/UnDotNet/BootstrapEmail/compare/v1.0.0...v1.1.0)
