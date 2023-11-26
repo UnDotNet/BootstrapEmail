@@ -32,7 +32,7 @@ internal class HeadStyle : Base<HeadStyle>
             .Select(m => m.Value);
         foreach (var group in groups)
         {
-            var selectors = Regex.Matches(group, @"(\.[\w\-]*).*?((,+?)|{+?)")
+            var selectors = Regex.Matches(group, @"^(\.[\w\-]*).*?((,+?)|{+?)")
                 .Select(m => m.Groups[1].Value)
                 .Distinct();
             var exist = selectors.Any(selector => _doc.QuerySelector(selector) != null);

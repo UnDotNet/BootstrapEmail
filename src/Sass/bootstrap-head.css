@@ -2025,4 +2025,2307 @@ table:not([class^=s-]) td {
     line-height: 160px !important;
     height: 160px !important;
   }
+}
+@media (prefers-color-scheme: dark) {
+  .dark-text-primary, .dark-text-primary > tbody > tr > td, .dark-text-primary.btn td a {
+    color: #3b82f6 !important;
+  }
+  .dark-bg-primary, .dark-bg-primary > tbody > tr > td, .dark-bg-primary.btn td a {
+    background-color: #3b82f6 !important;
+  }
+  .dark-border-primary, .dark-border-primary.btn td a, .dark-border-primary.hr td {
+    border-color: #3b82f6 !important;
+  }
+  .dark-text-secondary, .dark-text-secondary > tbody > tr > td, .dark-text-secondary.btn td a {
+    color: #4b5563 !important;
+  }
+  .dark-bg-secondary, .dark-bg-secondary > tbody > tr > td, .dark-bg-secondary.btn td a {
+    background-color: #4b5563 !important;
+  }
+  .dark-border-secondary, .dark-border-secondary.btn td a, .dark-border-secondary.hr td {
+    border-color: #4b5563 !important;
+  }
+  .dark-text-success, .dark-text-success > tbody > tr > td, .dark-text-success.btn td a {
+    color: #22c55e !important;
+  }
+  .dark-bg-success, .dark-bg-success > tbody > tr > td, .dark-bg-success.btn td a {
+    background-color: #22c55e !important;
+  }
+  .dark-border-success, .dark-border-success.btn td a, .dark-border-success.hr td {
+    border-color: #22c55e !important;
+  }
+  .dark-text-info, .dark-text-info > tbody > tr > td, .dark-text-info.btn td a {
+    color: #06b6d4 !important;
+  }
+  .dark-bg-info, .dark-bg-info > tbody > tr > td, .dark-bg-info.btn td a {
+    background-color: #06b6d4 !important;
+  }
+  .dark-border-info, .dark-border-info.btn td a, .dark-border-info.hr td {
+    border-color: #06b6d4 !important;
+  }
+  .dark-text-warning, .dark-text-warning > tbody > tr > td, .dark-text-warning.btn td a {
+    color: #eab308 !important;
+  }
+  .dark-bg-warning, .dark-bg-warning > tbody > tr > td, .dark-bg-warning.btn td a {
+    background-color: #eab308 !important;
+  }
+  .dark-border-warning, .dark-border-warning.btn td a, .dark-border-warning.hr td {
+    border-color: #eab308 !important;
+  }
+  .dark-text-danger, .dark-text-danger > tbody > tr > td, .dark-text-danger.btn td a {
+    color: #ef4444 !important;
+  }
+  .dark-bg-danger, .dark-bg-danger > tbody > tr > td, .dark-bg-danger.btn td a {
+    background-color: #ef4444 !important;
+  }
+  .dark-border-danger, .dark-border-danger.btn td a, .dark-border-danger.hr td {
+    border-color: #ef4444 !important;
+  }
+  .dark-text-light, .dark-text-light > tbody > tr > td, .dark-text-light.btn td a {
+    color: #f3f4f6 !important;
+  }
+  .dark-bg-light, .dark-bg-light > tbody > tr > td, .dark-bg-light.btn td a {
+    background-color: #f3f4f6 !important;
+  }
+  .dark-border-light, .dark-border-light.btn td a, .dark-border-light.hr td {
+    border-color: #f3f4f6 !important;
+  }
+  .dark-text-dark, .dark-text-dark > tbody > tr > td, .dark-text-dark.btn td a {
+    color: #111827 !important;
+  }
+  .dark-bg-dark, .dark-bg-dark > tbody > tr > td, .dark-bg-dark.btn td a {
+    background-color: #111827 !important;
+  }
+  .dark-border-dark, .dark-border-dark.btn td a, .dark-border-dark.hr td {
+    border-color: #111827 !important;
+  }
+  .dark-text-black, .dark-text-black > tbody > tr > td, .dark-text-black.btn td a {
+    color: #000000 !important;
+  }
+  .dark-bg-black, .dark-bg-black > tbody > tr > td, .dark-bg-black.btn td a {
+    background-color: #000000 !important;
+  }
+  .dark-border-black, .dark-border-black.btn td a, .dark-border-black.hr td {
+    border-color: #000000 !important;
+  }
+  .dark-text-white, .dark-text-white > tbody > tr > td, .dark-text-white.btn td a {
+    color: #ffffff !important;
+  }
+  .dark-bg-white, .dark-bg-white > tbody > tr > td, .dark-bg-white.btn td a {
+    background-color: #ffffff !important;
+  }
+  .dark-border-white, .dark-border-white.btn td a, .dark-border-white.hr td {
+    border-color: #ffffff !important;
+  }
+  .dark-text-transparent, .dark-text-transparent > tbody > tr > td, .dark-text-transparent.btn td a {
+    color: transparent !important;
+  }
+  .dark-bg-transparent, .dark-bg-transparent > tbody > tr > td, .dark-bg-transparent.btn td a {
+    background-color: transparent !important;
+  }
+  .dark-border-transparent, .dark-border-transparent.btn td a, .dark-border-transparent.hr td {
+    border-color: transparent !important;
+  }
+  .dark-text-slate-50, .dark-text-slate-50 > tbody > tr > td, .dark-text-slate-50.btn td a {
+    color: #f8fafc !important;
+  }
+  .dark-bg-slate-50, .dark-bg-slate-50 > tbody > tr > td, .dark-bg-slate-50.btn td a {
+    background-color: #f8fafc !important;
+  }
+  .dark-border-slate-50, .dark-border-slate-50.btn td a, .dark-border-slate-50.hr td {
+    border-color: #f8fafc !important;
+  }
+  .dark-text-slate-100, .dark-text-slate-100 > tbody > tr > td, .dark-text-slate-100.btn td a {
+    color: #f1f5f9 !important;
+  }
+  .dark-bg-slate-100, .dark-bg-slate-100 > tbody > tr > td, .dark-bg-slate-100.btn td a {
+    background-color: #f1f5f9 !important;
+  }
+  .dark-border-slate-100, .dark-border-slate-100.btn td a, .dark-border-slate-100.hr td {
+    border-color: #f1f5f9 !important;
+  }
+  .dark-text-slate-200, .dark-text-slate-200 > tbody > tr > td, .dark-text-slate-200.btn td a {
+    color: #e2e8f0 !important;
+  }
+  .dark-bg-slate-200, .dark-bg-slate-200 > tbody > tr > td, .dark-bg-slate-200.btn td a {
+    background-color: #e2e8f0 !important;
+  }
+  .dark-border-slate-200, .dark-border-slate-200.btn td a, .dark-border-slate-200.hr td {
+    border-color: #e2e8f0 !important;
+  }
+  .dark-text-slate-300, .dark-text-slate-300 > tbody > tr > td, .dark-text-slate-300.btn td a {
+    color: #cbd5e1 !important;
+  }
+  .dark-bg-slate-300, .dark-bg-slate-300 > tbody > tr > td, .dark-bg-slate-300.btn td a {
+    background-color: #cbd5e1 !important;
+  }
+  .dark-border-slate-300, .dark-border-slate-300.btn td a, .dark-border-slate-300.hr td {
+    border-color: #cbd5e1 !important;
+  }
+  .dark-text-slate-400, .dark-text-slate-400 > tbody > tr > td, .dark-text-slate-400.btn td a {
+    color: #94a3b8 !important;
+  }
+  .dark-bg-slate-400, .dark-bg-slate-400 > tbody > tr > td, .dark-bg-slate-400.btn td a {
+    background-color: #94a3b8 !important;
+  }
+  .dark-border-slate-400, .dark-border-slate-400.btn td a, .dark-border-slate-400.hr td {
+    border-color: #94a3b8 !important;
+  }
+  .dark-text-slate-500, .dark-text-slate-500 > tbody > tr > td, .dark-text-slate-500.btn td a {
+    color: #64748b !important;
+  }
+  .dark-bg-slate-500, .dark-bg-slate-500 > tbody > tr > td, .dark-bg-slate-500.btn td a {
+    background-color: #64748b !important;
+  }
+  .dark-border-slate-500, .dark-border-slate-500.btn td a, .dark-border-slate-500.hr td {
+    border-color: #64748b !important;
+  }
+  .dark-text-slate-600, .dark-text-slate-600 > tbody > tr > td, .dark-text-slate-600.btn td a {
+    color: #475569 !important;
+  }
+  .dark-bg-slate-600, .dark-bg-slate-600 > tbody > tr > td, .dark-bg-slate-600.btn td a {
+    background-color: #475569 !important;
+  }
+  .dark-border-slate-600, .dark-border-slate-600.btn td a, .dark-border-slate-600.hr td {
+    border-color: #475569 !important;
+  }
+  .dark-text-slate-700, .dark-text-slate-700 > tbody > tr > td, .dark-text-slate-700.btn td a {
+    color: #334155 !important;
+  }
+  .dark-bg-slate-700, .dark-bg-slate-700 > tbody > tr > td, .dark-bg-slate-700.btn td a {
+    background-color: #334155 !important;
+  }
+  .dark-border-slate-700, .dark-border-slate-700.btn td a, .dark-border-slate-700.hr td {
+    border-color: #334155 !important;
+  }
+  .dark-text-slate-800, .dark-text-slate-800 > tbody > tr > td, .dark-text-slate-800.btn td a {
+    color: #1e293b !important;
+  }
+  .dark-bg-slate-800, .dark-bg-slate-800 > tbody > tr > td, .dark-bg-slate-800.btn td a {
+    background-color: #1e293b !important;
+  }
+  .dark-border-slate-800, .dark-border-slate-800.btn td a, .dark-border-slate-800.hr td {
+    border-color: #1e293b !important;
+  }
+  .dark-text-slate-900, .dark-text-slate-900 > tbody > tr > td, .dark-text-slate-900.btn td a {
+    color: #0f172a !important;
+  }
+  .dark-bg-slate-900, .dark-bg-slate-900 > tbody > tr > td, .dark-bg-slate-900.btn td a {
+    background-color: #0f172a !important;
+  }
+  .dark-border-slate-900, .dark-border-slate-900.btn td a, .dark-border-slate-900.hr td {
+    border-color: #0f172a !important;
+  }
+  .dark-text-slate-950, .dark-text-slate-950 > tbody > tr > td, .dark-text-slate-950.btn td a {
+    color: #020617 !important;
+  }
+  .dark-bg-slate-950, .dark-bg-slate-950 > tbody > tr > td, .dark-bg-slate-950.btn td a {
+    background-color: #020617 !important;
+  }
+  .dark-border-slate-950, .dark-border-slate-950.btn td a, .dark-border-slate-950.hr td {
+    border-color: #020617 !important;
+  }
+  .dark-text-gray-50, .dark-text-gray-50 > tbody > tr > td, .dark-text-gray-50.btn td a {
+    color: #f9fafb !important;
+  }
+  .dark-bg-gray-50, .dark-bg-gray-50 > tbody > tr > td, .dark-bg-gray-50.btn td a {
+    background-color: #f9fafb !important;
+  }
+  .dark-border-gray-50, .dark-border-gray-50.btn td a, .dark-border-gray-50.hr td {
+    border-color: #f9fafb !important;
+  }
+  .dark-text-gray-100, .dark-text-gray-100 > tbody > tr > td, .dark-text-gray-100.btn td a {
+    color: #f3f4f6 !important;
+  }
+  .dark-bg-gray-100, .dark-bg-gray-100 > tbody > tr > td, .dark-bg-gray-100.btn td a {
+    background-color: #f3f4f6 !important;
+  }
+  .dark-border-gray-100, .dark-border-gray-100.btn td a, .dark-border-gray-100.hr td {
+    border-color: #f3f4f6 !important;
+  }
+  .dark-text-gray-200, .dark-text-gray-200 > tbody > tr > td, .dark-text-gray-200.btn td a {
+    color: #e5e7eb !important;
+  }
+  .dark-bg-gray-200, .dark-bg-gray-200 > tbody > tr > td, .dark-bg-gray-200.btn td a {
+    background-color: #e5e7eb !important;
+  }
+  .dark-border-gray-200, .dark-border-gray-200.btn td a, .dark-border-gray-200.hr td {
+    border-color: #e5e7eb !important;
+  }
+  .dark-text-gray-300, .dark-text-gray-300 > tbody > tr > td, .dark-text-gray-300.btn td a {
+    color: #d1d5db !important;
+  }
+  .dark-bg-gray-300, .dark-bg-gray-300 > tbody > tr > td, .dark-bg-gray-300.btn td a {
+    background-color: #d1d5db !important;
+  }
+  .dark-border-gray-300, .dark-border-gray-300.btn td a, .dark-border-gray-300.hr td {
+    border-color: #d1d5db !important;
+  }
+  .dark-text-gray-400, .dark-text-gray-400 > tbody > tr > td, .dark-text-gray-400.btn td a {
+    color: #9ca3af !important;
+  }
+  .dark-bg-gray-400, .dark-bg-gray-400 > tbody > tr > td, .dark-bg-gray-400.btn td a {
+    background-color: #9ca3af !important;
+  }
+  .dark-border-gray-400, .dark-border-gray-400.btn td a, .dark-border-gray-400.hr td {
+    border-color: #9ca3af !important;
+  }
+  .dark-text-gray-500, .dark-text-gray-500 > tbody > tr > td, .dark-text-gray-500.btn td a {
+    color: #6b7280 !important;
+  }
+  .dark-bg-gray-500, .dark-bg-gray-500 > tbody > tr > td, .dark-bg-gray-500.btn td a {
+    background-color: #6b7280 !important;
+  }
+  .dark-border-gray-500, .dark-border-gray-500.btn td a, .dark-border-gray-500.hr td {
+    border-color: #6b7280 !important;
+  }
+  .dark-text-gray-600, .dark-text-gray-600 > tbody > tr > td, .dark-text-gray-600.btn td a {
+    color: #4b5563 !important;
+  }
+  .dark-bg-gray-600, .dark-bg-gray-600 > tbody > tr > td, .dark-bg-gray-600.btn td a {
+    background-color: #4b5563 !important;
+  }
+  .dark-border-gray-600, .dark-border-gray-600.btn td a, .dark-border-gray-600.hr td {
+    border-color: #4b5563 !important;
+  }
+  .dark-text-gray-700, .dark-text-gray-700 > tbody > tr > td, .dark-text-gray-700.btn td a {
+    color: #374151 !important;
+  }
+  .dark-bg-gray-700, .dark-bg-gray-700 > tbody > tr > td, .dark-bg-gray-700.btn td a {
+    background-color: #374151 !important;
+  }
+  .dark-border-gray-700, .dark-border-gray-700.btn td a, .dark-border-gray-700.hr td {
+    border-color: #374151 !important;
+  }
+  .dark-text-gray-800, .dark-text-gray-800 > tbody > tr > td, .dark-text-gray-800.btn td a {
+    color: #1f2937 !important;
+  }
+  .dark-bg-gray-800, .dark-bg-gray-800 > tbody > tr > td, .dark-bg-gray-800.btn td a {
+    background-color: #1f2937 !important;
+  }
+  .dark-border-gray-800, .dark-border-gray-800.btn td a, .dark-border-gray-800.hr td {
+    border-color: #1f2937 !important;
+  }
+  .dark-text-gray-900, .dark-text-gray-900 > tbody > tr > td, .dark-text-gray-900.btn td a {
+    color: #111827 !important;
+  }
+  .dark-bg-gray-900, .dark-bg-gray-900 > tbody > tr > td, .dark-bg-gray-900.btn td a {
+    background-color: #111827 !important;
+  }
+  .dark-border-gray-900, .dark-border-gray-900.btn td a, .dark-border-gray-900.hr td {
+    border-color: #111827 !important;
+  }
+  .dark-text-gray-950, .dark-text-gray-950 > tbody > tr > td, .dark-text-gray-950.btn td a {
+    color: #030712 !important;
+  }
+  .dark-bg-gray-950, .dark-bg-gray-950 > tbody > tr > td, .dark-bg-gray-950.btn td a {
+    background-color: #030712 !important;
+  }
+  .dark-border-gray-950, .dark-border-gray-950.btn td a, .dark-border-gray-950.hr td {
+    border-color: #030712 !important;
+  }
+  .dark-text-zinc-50, .dark-text-zinc-50 > tbody > tr > td, .dark-text-zinc-50.btn td a {
+    color: #fafafa !important;
+  }
+  .dark-bg-zinc-50, .dark-bg-zinc-50 > tbody > tr > td, .dark-bg-zinc-50.btn td a {
+    background-color: #fafafa !important;
+  }
+  .dark-border-zinc-50, .dark-border-zinc-50.btn td a, .dark-border-zinc-50.hr td {
+    border-color: #fafafa !important;
+  }
+  .dark-text-zinc-100, .dark-text-zinc-100 > tbody > tr > td, .dark-text-zinc-100.btn td a {
+    color: #f4f4f5 !important;
+  }
+  .dark-bg-zinc-100, .dark-bg-zinc-100 > tbody > tr > td, .dark-bg-zinc-100.btn td a {
+    background-color: #f4f4f5 !important;
+  }
+  .dark-border-zinc-100, .dark-border-zinc-100.btn td a, .dark-border-zinc-100.hr td {
+    border-color: #f4f4f5 !important;
+  }
+  .dark-text-zinc-200, .dark-text-zinc-200 > tbody > tr > td, .dark-text-zinc-200.btn td a {
+    color: #e4e4e7 !important;
+  }
+  .dark-bg-zinc-200, .dark-bg-zinc-200 > tbody > tr > td, .dark-bg-zinc-200.btn td a {
+    background-color: #e4e4e7 !important;
+  }
+  .dark-border-zinc-200, .dark-border-zinc-200.btn td a, .dark-border-zinc-200.hr td {
+    border-color: #e4e4e7 !important;
+  }
+  .dark-text-zinc-300, .dark-text-zinc-300 > tbody > tr > td, .dark-text-zinc-300.btn td a {
+    color: #d4d4d8 !important;
+  }
+  .dark-bg-zinc-300, .dark-bg-zinc-300 > tbody > tr > td, .dark-bg-zinc-300.btn td a {
+    background-color: #d4d4d8 !important;
+  }
+  .dark-border-zinc-300, .dark-border-zinc-300.btn td a, .dark-border-zinc-300.hr td {
+    border-color: #d4d4d8 !important;
+  }
+  .dark-text-zinc-400, .dark-text-zinc-400 > tbody > tr > td, .dark-text-zinc-400.btn td a {
+    color: #a1a1aa !important;
+  }
+  .dark-bg-zinc-400, .dark-bg-zinc-400 > tbody > tr > td, .dark-bg-zinc-400.btn td a {
+    background-color: #a1a1aa !important;
+  }
+  .dark-border-zinc-400, .dark-border-zinc-400.btn td a, .dark-border-zinc-400.hr td {
+    border-color: #a1a1aa !important;
+  }
+  .dark-text-zinc-500, .dark-text-zinc-500 > tbody > tr > td, .dark-text-zinc-500.btn td a {
+    color: #71717a !important;
+  }
+  .dark-bg-zinc-500, .dark-bg-zinc-500 > tbody > tr > td, .dark-bg-zinc-500.btn td a {
+    background-color: #71717a !important;
+  }
+  .dark-border-zinc-500, .dark-border-zinc-500.btn td a, .dark-border-zinc-500.hr td {
+    border-color: #71717a !important;
+  }
+  .dark-text-zinc-600, .dark-text-zinc-600 > tbody > tr > td, .dark-text-zinc-600.btn td a {
+    color: #52525b !important;
+  }
+  .dark-bg-zinc-600, .dark-bg-zinc-600 > tbody > tr > td, .dark-bg-zinc-600.btn td a {
+    background-color: #52525b !important;
+  }
+  .dark-border-zinc-600, .dark-border-zinc-600.btn td a, .dark-border-zinc-600.hr td {
+    border-color: #52525b !important;
+  }
+  .dark-text-zinc-700, .dark-text-zinc-700 > tbody > tr > td, .dark-text-zinc-700.btn td a {
+    color: #3f3f46 !important;
+  }
+  .dark-bg-zinc-700, .dark-bg-zinc-700 > tbody > tr > td, .dark-bg-zinc-700.btn td a {
+    background-color: #3f3f46 !important;
+  }
+  .dark-border-zinc-700, .dark-border-zinc-700.btn td a, .dark-border-zinc-700.hr td {
+    border-color: #3f3f46 !important;
+  }
+  .dark-text-zinc-800, .dark-text-zinc-800 > tbody > tr > td, .dark-text-zinc-800.btn td a {
+    color: #27272a !important;
+  }
+  .dark-bg-zinc-800, .dark-bg-zinc-800 > tbody > tr > td, .dark-bg-zinc-800.btn td a {
+    background-color: #27272a !important;
+  }
+  .dark-border-zinc-800, .dark-border-zinc-800.btn td a, .dark-border-zinc-800.hr td {
+    border-color: #27272a !important;
+  }
+  .dark-text-zinc-900, .dark-text-zinc-900 > tbody > tr > td, .dark-text-zinc-900.btn td a {
+    color: #18181b !important;
+  }
+  .dark-bg-zinc-900, .dark-bg-zinc-900 > tbody > tr > td, .dark-bg-zinc-900.btn td a {
+    background-color: #18181b !important;
+  }
+  .dark-border-zinc-900, .dark-border-zinc-900.btn td a, .dark-border-zinc-900.hr td {
+    border-color: #18181b !important;
+  }
+  .dark-text-zinc-950, .dark-text-zinc-950 > tbody > tr > td, .dark-text-zinc-950.btn td a {
+    color: #09090b !important;
+  }
+  .dark-bg-zinc-950, .dark-bg-zinc-950 > tbody > tr > td, .dark-bg-zinc-950.btn td a {
+    background-color: #09090b !important;
+  }
+  .dark-border-zinc-950, .dark-border-zinc-950.btn td a, .dark-border-zinc-950.hr td {
+    border-color: #09090b !important;
+  }
+  .dark-text-neutral-50, .dark-text-neutral-50 > tbody > tr > td, .dark-text-neutral-50.btn td a {
+    color: #fafafa !important;
+  }
+  .dark-bg-neutral-50, .dark-bg-neutral-50 > tbody > tr > td, .dark-bg-neutral-50.btn td a {
+    background-color: #fafafa !important;
+  }
+  .dark-border-neutral-50, .dark-border-neutral-50.btn td a, .dark-border-neutral-50.hr td {
+    border-color: #fafafa !important;
+  }
+  .dark-text-neutral-100, .dark-text-neutral-100 > tbody > tr > td, .dark-text-neutral-100.btn td a {
+    color: #f5f5f5 !important;
+  }
+  .dark-bg-neutral-100, .dark-bg-neutral-100 > tbody > tr > td, .dark-bg-neutral-100.btn td a {
+    background-color: #f5f5f5 !important;
+  }
+  .dark-border-neutral-100, .dark-border-neutral-100.btn td a, .dark-border-neutral-100.hr td {
+    border-color: #f5f5f5 !important;
+  }
+  .dark-text-neutral-200, .dark-text-neutral-200 > tbody > tr > td, .dark-text-neutral-200.btn td a {
+    color: #e5e5e5 !important;
+  }
+  .dark-bg-neutral-200, .dark-bg-neutral-200 > tbody > tr > td, .dark-bg-neutral-200.btn td a {
+    background-color: #e5e5e5 !important;
+  }
+  .dark-border-neutral-200, .dark-border-neutral-200.btn td a, .dark-border-neutral-200.hr td {
+    border-color: #e5e5e5 !important;
+  }
+  .dark-text-neutral-300, .dark-text-neutral-300 > tbody > tr > td, .dark-text-neutral-300.btn td a {
+    color: #d4d4d4 !important;
+  }
+  .dark-bg-neutral-300, .dark-bg-neutral-300 > tbody > tr > td, .dark-bg-neutral-300.btn td a {
+    background-color: #d4d4d4 !important;
+  }
+  .dark-border-neutral-300, .dark-border-neutral-300.btn td a, .dark-border-neutral-300.hr td {
+    border-color: #d4d4d4 !important;
+  }
+  .dark-text-neutral-400, .dark-text-neutral-400 > tbody > tr > td, .dark-text-neutral-400.btn td a {
+    color: #a3a3a3 !important;
+  }
+  .dark-bg-neutral-400, .dark-bg-neutral-400 > tbody > tr > td, .dark-bg-neutral-400.btn td a {
+    background-color: #a3a3a3 !important;
+  }
+  .dark-border-neutral-400, .dark-border-neutral-400.btn td a, .dark-border-neutral-400.hr td {
+    border-color: #a3a3a3 !important;
+  }
+  .dark-text-neutral-500, .dark-text-neutral-500 > tbody > tr > td, .dark-text-neutral-500.btn td a {
+    color: #737373 !important;
+  }
+  .dark-bg-neutral-500, .dark-bg-neutral-500 > tbody > tr > td, .dark-bg-neutral-500.btn td a {
+    background-color: #737373 !important;
+  }
+  .dark-border-neutral-500, .dark-border-neutral-500.btn td a, .dark-border-neutral-500.hr td {
+    border-color: #737373 !important;
+  }
+  .dark-text-neutral-600, .dark-text-neutral-600 > tbody > tr > td, .dark-text-neutral-600.btn td a {
+    color: #525252 !important;
+  }
+  .dark-bg-neutral-600, .dark-bg-neutral-600 > tbody > tr > td, .dark-bg-neutral-600.btn td a {
+    background-color: #525252 !important;
+  }
+  .dark-border-neutral-600, .dark-border-neutral-600.btn td a, .dark-border-neutral-600.hr td {
+    border-color: #525252 !important;
+  }
+  .dark-text-neutral-700, .dark-text-neutral-700 > tbody > tr > td, .dark-text-neutral-700.btn td a {
+    color: #404040 !important;
+  }
+  .dark-bg-neutral-700, .dark-bg-neutral-700 > tbody > tr > td, .dark-bg-neutral-700.btn td a {
+    background-color: #404040 !important;
+  }
+  .dark-border-neutral-700, .dark-border-neutral-700.btn td a, .dark-border-neutral-700.hr td {
+    border-color: #404040 !important;
+  }
+  .dark-text-neutral-800, .dark-text-neutral-800 > tbody > tr > td, .dark-text-neutral-800.btn td a {
+    color: #262626 !important;
+  }
+  .dark-bg-neutral-800, .dark-bg-neutral-800 > tbody > tr > td, .dark-bg-neutral-800.btn td a {
+    background-color: #262626 !important;
+  }
+  .dark-border-neutral-800, .dark-border-neutral-800.btn td a, .dark-border-neutral-800.hr td {
+    border-color: #262626 !important;
+  }
+  .dark-text-neutral-900, .dark-text-neutral-900 > tbody > tr > td, .dark-text-neutral-900.btn td a {
+    color: #171717 !important;
+  }
+  .dark-bg-neutral-900, .dark-bg-neutral-900 > tbody > tr > td, .dark-bg-neutral-900.btn td a {
+    background-color: #171717 !important;
+  }
+  .dark-border-neutral-900, .dark-border-neutral-900.btn td a, .dark-border-neutral-900.hr td {
+    border-color: #171717 !important;
+  }
+  .dark-text-neutral-950, .dark-text-neutral-950 > tbody > tr > td, .dark-text-neutral-950.btn td a {
+    color: #0a0a0a !important;
+  }
+  .dark-bg-neutral-950, .dark-bg-neutral-950 > tbody > tr > td, .dark-bg-neutral-950.btn td a {
+    background-color: #0a0a0a !important;
+  }
+  .dark-border-neutral-950, .dark-border-neutral-950.btn td a, .dark-border-neutral-950.hr td {
+    border-color: #0a0a0a !important;
+  }
+  .dark-text-stone-50, .dark-text-stone-50 > tbody > tr > td, .dark-text-stone-50.btn td a {
+    color: #fafaf9 !important;
+  }
+  .dark-bg-stone-50, .dark-bg-stone-50 > tbody > tr > td, .dark-bg-stone-50.btn td a {
+    background-color: #fafaf9 !important;
+  }
+  .dark-border-stone-50, .dark-border-stone-50.btn td a, .dark-border-stone-50.hr td {
+    border-color: #fafaf9 !important;
+  }
+  .dark-text-stone-100, .dark-text-stone-100 > tbody > tr > td, .dark-text-stone-100.btn td a {
+    color: #f5f5f4 !important;
+  }
+  .dark-bg-stone-100, .dark-bg-stone-100 > tbody > tr > td, .dark-bg-stone-100.btn td a {
+    background-color: #f5f5f4 !important;
+  }
+  .dark-border-stone-100, .dark-border-stone-100.btn td a, .dark-border-stone-100.hr td {
+    border-color: #f5f5f4 !important;
+  }
+  .dark-text-stone-200, .dark-text-stone-200 > tbody > tr > td, .dark-text-stone-200.btn td a {
+    color: #e7e5e4 !important;
+  }
+  .dark-bg-stone-200, .dark-bg-stone-200 > tbody > tr > td, .dark-bg-stone-200.btn td a {
+    background-color: #e7e5e4 !important;
+  }
+  .dark-border-stone-200, .dark-border-stone-200.btn td a, .dark-border-stone-200.hr td {
+    border-color: #e7e5e4 !important;
+  }
+  .dark-text-stone-300, .dark-text-stone-300 > tbody > tr > td, .dark-text-stone-300.btn td a {
+    color: #d6d3d1 !important;
+  }
+  .dark-bg-stone-300, .dark-bg-stone-300 > tbody > tr > td, .dark-bg-stone-300.btn td a {
+    background-color: #d6d3d1 !important;
+  }
+  .dark-border-stone-300, .dark-border-stone-300.btn td a, .dark-border-stone-300.hr td {
+    border-color: #d6d3d1 !important;
+  }
+  .dark-text-stone-400, .dark-text-stone-400 > tbody > tr > td, .dark-text-stone-400.btn td a {
+    color: #a8a29e !important;
+  }
+  .dark-bg-stone-400, .dark-bg-stone-400 > tbody > tr > td, .dark-bg-stone-400.btn td a {
+    background-color: #a8a29e !important;
+  }
+  .dark-border-stone-400, .dark-border-stone-400.btn td a, .dark-border-stone-400.hr td {
+    border-color: #a8a29e !important;
+  }
+  .dark-text-stone-500, .dark-text-stone-500 > tbody > tr > td, .dark-text-stone-500.btn td a {
+    color: #78716c !important;
+  }
+  .dark-bg-stone-500, .dark-bg-stone-500 > tbody > tr > td, .dark-bg-stone-500.btn td a {
+    background-color: #78716c !important;
+  }
+  .dark-border-stone-500, .dark-border-stone-500.btn td a, .dark-border-stone-500.hr td {
+    border-color: #78716c !important;
+  }
+  .dark-text-stone-600, .dark-text-stone-600 > tbody > tr > td, .dark-text-stone-600.btn td a {
+    color: #57534e !important;
+  }
+  .dark-bg-stone-600, .dark-bg-stone-600 > tbody > tr > td, .dark-bg-stone-600.btn td a {
+    background-color: #57534e !important;
+  }
+  .dark-border-stone-600, .dark-border-stone-600.btn td a, .dark-border-stone-600.hr td {
+    border-color: #57534e !important;
+  }
+  .dark-text-stone-700, .dark-text-stone-700 > tbody > tr > td, .dark-text-stone-700.btn td a {
+    color: #44403c !important;
+  }
+  .dark-bg-stone-700, .dark-bg-stone-700 > tbody > tr > td, .dark-bg-stone-700.btn td a {
+    background-color: #44403c !important;
+  }
+  .dark-border-stone-700, .dark-border-stone-700.btn td a, .dark-border-stone-700.hr td {
+    border-color: #44403c !important;
+  }
+  .dark-text-stone-800, .dark-text-stone-800 > tbody > tr > td, .dark-text-stone-800.btn td a {
+    color: #292524 !important;
+  }
+  .dark-bg-stone-800, .dark-bg-stone-800 > tbody > tr > td, .dark-bg-stone-800.btn td a {
+    background-color: #292524 !important;
+  }
+  .dark-border-stone-800, .dark-border-stone-800.btn td a, .dark-border-stone-800.hr td {
+    border-color: #292524 !important;
+  }
+  .dark-text-stone-900, .dark-text-stone-900 > tbody > tr > td, .dark-text-stone-900.btn td a {
+    color: #1c1917 !important;
+  }
+  .dark-bg-stone-900, .dark-bg-stone-900 > tbody > tr > td, .dark-bg-stone-900.btn td a {
+    background-color: #1c1917 !important;
+  }
+  .dark-border-stone-900, .dark-border-stone-900.btn td a, .dark-border-stone-900.hr td {
+    border-color: #1c1917 !important;
+  }
+  .dark-text-stone-950, .dark-text-stone-950 > tbody > tr > td, .dark-text-stone-950.btn td a {
+    color: #0c0a09 !important;
+  }
+  .dark-bg-stone-950, .dark-bg-stone-950 > tbody > tr > td, .dark-bg-stone-950.btn td a {
+    background-color: #0c0a09 !important;
+  }
+  .dark-border-stone-950, .dark-border-stone-950.btn td a, .dark-border-stone-950.hr td {
+    border-color: #0c0a09 !important;
+  }
+  .dark-text-red-50, .dark-text-red-50 > tbody > tr > td, .dark-text-red-50.btn td a {
+    color: #fef2f2 !important;
+  }
+  .dark-bg-red-50, .dark-bg-red-50 > tbody > tr > td, .dark-bg-red-50.btn td a {
+    background-color: #fef2f2 !important;
+  }
+  .dark-border-red-50, .dark-border-red-50.btn td a, .dark-border-red-50.hr td {
+    border-color: #fef2f2 !important;
+  }
+  .dark-text-red-100, .dark-text-red-100 > tbody > tr > td, .dark-text-red-100.btn td a {
+    color: #fee2e2 !important;
+  }
+  .dark-bg-red-100, .dark-bg-red-100 > tbody > tr > td, .dark-bg-red-100.btn td a {
+    background-color: #fee2e2 !important;
+  }
+  .dark-border-red-100, .dark-border-red-100.btn td a, .dark-border-red-100.hr td {
+    border-color: #fee2e2 !important;
+  }
+  .dark-text-red-200, .dark-text-red-200 > tbody > tr > td, .dark-text-red-200.btn td a {
+    color: #fecaca !important;
+  }
+  .dark-bg-red-200, .dark-bg-red-200 > tbody > tr > td, .dark-bg-red-200.btn td a {
+    background-color: #fecaca !important;
+  }
+  .dark-border-red-200, .dark-border-red-200.btn td a, .dark-border-red-200.hr td {
+    border-color: #fecaca !important;
+  }
+  .dark-text-red-300, .dark-text-red-300 > tbody > tr > td, .dark-text-red-300.btn td a {
+    color: #fca5a5 !important;
+  }
+  .dark-bg-red-300, .dark-bg-red-300 > tbody > tr > td, .dark-bg-red-300.btn td a {
+    background-color: #fca5a5 !important;
+  }
+  .dark-border-red-300, .dark-border-red-300.btn td a, .dark-border-red-300.hr td {
+    border-color: #fca5a5 !important;
+  }
+  .dark-text-red-400, .dark-text-red-400 > tbody > tr > td, .dark-text-red-400.btn td a {
+    color: #f87171 !important;
+  }
+  .dark-bg-red-400, .dark-bg-red-400 > tbody > tr > td, .dark-bg-red-400.btn td a {
+    background-color: #f87171 !important;
+  }
+  .dark-border-red-400, .dark-border-red-400.btn td a, .dark-border-red-400.hr td {
+    border-color: #f87171 !important;
+  }
+  .dark-text-red-500, .dark-text-red-500 > tbody > tr > td, .dark-text-red-500.btn td a {
+    color: #ef4444 !important;
+  }
+  .dark-bg-red-500, .dark-bg-red-500 > tbody > tr > td, .dark-bg-red-500.btn td a {
+    background-color: #ef4444 !important;
+  }
+  .dark-border-red-500, .dark-border-red-500.btn td a, .dark-border-red-500.hr td {
+    border-color: #ef4444 !important;
+  }
+  .dark-text-red-600, .dark-text-red-600 > tbody > tr > td, .dark-text-red-600.btn td a {
+    color: #dc2626 !important;
+  }
+  .dark-bg-red-600, .dark-bg-red-600 > tbody > tr > td, .dark-bg-red-600.btn td a {
+    background-color: #dc2626 !important;
+  }
+  .dark-border-red-600, .dark-border-red-600.btn td a, .dark-border-red-600.hr td {
+    border-color: #dc2626 !important;
+  }
+  .dark-text-red-700, .dark-text-red-700 > tbody > tr > td, .dark-text-red-700.btn td a {
+    color: #b91c1c !important;
+  }
+  .dark-bg-red-700, .dark-bg-red-700 > tbody > tr > td, .dark-bg-red-700.btn td a {
+    background-color: #b91c1c !important;
+  }
+  .dark-border-red-700, .dark-border-red-700.btn td a, .dark-border-red-700.hr td {
+    border-color: #b91c1c !important;
+  }
+  .dark-text-red-800, .dark-text-red-800 > tbody > tr > td, .dark-text-red-800.btn td a {
+    color: #991b1b !important;
+  }
+  .dark-bg-red-800, .dark-bg-red-800 > tbody > tr > td, .dark-bg-red-800.btn td a {
+    background-color: #991b1b !important;
+  }
+  .dark-border-red-800, .dark-border-red-800.btn td a, .dark-border-red-800.hr td {
+    border-color: #991b1b !important;
+  }
+  .dark-text-red-900, .dark-text-red-900 > tbody > tr > td, .dark-text-red-900.btn td a {
+    color: #7f1d1d !important;
+  }
+  .dark-bg-red-900, .dark-bg-red-900 > tbody > tr > td, .dark-bg-red-900.btn td a {
+    background-color: #7f1d1d !important;
+  }
+  .dark-border-red-900, .dark-border-red-900.btn td a, .dark-border-red-900.hr td {
+    border-color: #7f1d1d !important;
+  }
+  .dark-text-red-950, .dark-text-red-950 > tbody > tr > td, .dark-text-red-950.btn td a {
+    color: #450a0a !important;
+  }
+  .dark-bg-red-950, .dark-bg-red-950 > tbody > tr > td, .dark-bg-red-950.btn td a {
+    background-color: #450a0a !important;
+  }
+  .dark-border-red-950, .dark-border-red-950.btn td a, .dark-border-red-950.hr td {
+    border-color: #450a0a !important;
+  }
+  .dark-text-orange-50, .dark-text-orange-50 > tbody > tr > td, .dark-text-orange-50.btn td a {
+    color: #fff7ed !important;
+  }
+  .dark-bg-orange-50, .dark-bg-orange-50 > tbody > tr > td, .dark-bg-orange-50.btn td a {
+    background-color: #fff7ed !important;
+  }
+  .dark-border-orange-50, .dark-border-orange-50.btn td a, .dark-border-orange-50.hr td {
+    border-color: #fff7ed !important;
+  }
+  .dark-text-orange-100, .dark-text-orange-100 > tbody > tr > td, .dark-text-orange-100.btn td a {
+    color: #ffedd5 !important;
+  }
+  .dark-bg-orange-100, .dark-bg-orange-100 > tbody > tr > td, .dark-bg-orange-100.btn td a {
+    background-color: #ffedd5 !important;
+  }
+  .dark-border-orange-100, .dark-border-orange-100.btn td a, .dark-border-orange-100.hr td {
+    border-color: #ffedd5 !important;
+  }
+  .dark-text-orange-200, .dark-text-orange-200 > tbody > tr > td, .dark-text-orange-200.btn td a {
+    color: #fed7aa !important;
+  }
+  .dark-bg-orange-200, .dark-bg-orange-200 > tbody > tr > td, .dark-bg-orange-200.btn td a {
+    background-color: #fed7aa !important;
+  }
+  .dark-border-orange-200, .dark-border-orange-200.btn td a, .dark-border-orange-200.hr td {
+    border-color: #fed7aa !important;
+  }
+  .dark-text-orange-300, .dark-text-orange-300 > tbody > tr > td, .dark-text-orange-300.btn td a {
+    color: #fdba74 !important;
+  }
+  .dark-bg-orange-300, .dark-bg-orange-300 > tbody > tr > td, .dark-bg-orange-300.btn td a {
+    background-color: #fdba74 !important;
+  }
+  .dark-border-orange-300, .dark-border-orange-300.btn td a, .dark-border-orange-300.hr td {
+    border-color: #fdba74 !important;
+  }
+  .dark-text-orange-400, .dark-text-orange-400 > tbody > tr > td, .dark-text-orange-400.btn td a {
+    color: #fb923c !important;
+  }
+  .dark-bg-orange-400, .dark-bg-orange-400 > tbody > tr > td, .dark-bg-orange-400.btn td a {
+    background-color: #fb923c !important;
+  }
+  .dark-border-orange-400, .dark-border-orange-400.btn td a, .dark-border-orange-400.hr td {
+    border-color: #fb923c !important;
+  }
+  .dark-text-orange-500, .dark-text-orange-500 > tbody > tr > td, .dark-text-orange-500.btn td a {
+    color: #f97316 !important;
+  }
+  .dark-bg-orange-500, .dark-bg-orange-500 > tbody > tr > td, .dark-bg-orange-500.btn td a {
+    background-color: #f97316 !important;
+  }
+  .dark-border-orange-500, .dark-border-orange-500.btn td a, .dark-border-orange-500.hr td {
+    border-color: #f97316 !important;
+  }
+  .dark-text-orange-600, .dark-text-orange-600 > tbody > tr > td, .dark-text-orange-600.btn td a {
+    color: #ea580c !important;
+  }
+  .dark-bg-orange-600, .dark-bg-orange-600 > tbody > tr > td, .dark-bg-orange-600.btn td a {
+    background-color: #ea580c !important;
+  }
+  .dark-border-orange-600, .dark-border-orange-600.btn td a, .dark-border-orange-600.hr td {
+    border-color: #ea580c !important;
+  }
+  .dark-text-orange-700, .dark-text-orange-700 > tbody > tr > td, .dark-text-orange-700.btn td a {
+    color: #c2410c !important;
+  }
+  .dark-bg-orange-700, .dark-bg-orange-700 > tbody > tr > td, .dark-bg-orange-700.btn td a {
+    background-color: #c2410c !important;
+  }
+  .dark-border-orange-700, .dark-border-orange-700.btn td a, .dark-border-orange-700.hr td {
+    border-color: #c2410c !important;
+  }
+  .dark-text-orange-800, .dark-text-orange-800 > tbody > tr > td, .dark-text-orange-800.btn td a {
+    color: #9a3412 !important;
+  }
+  .dark-bg-orange-800, .dark-bg-orange-800 > tbody > tr > td, .dark-bg-orange-800.btn td a {
+    background-color: #9a3412 !important;
+  }
+  .dark-border-orange-800, .dark-border-orange-800.btn td a, .dark-border-orange-800.hr td {
+    border-color: #9a3412 !important;
+  }
+  .dark-text-orange-900, .dark-text-orange-900 > tbody > tr > td, .dark-text-orange-900.btn td a {
+    color: #7c2d12 !important;
+  }
+  .dark-bg-orange-900, .dark-bg-orange-900 > tbody > tr > td, .dark-bg-orange-900.btn td a {
+    background-color: #7c2d12 !important;
+  }
+  .dark-border-orange-900, .dark-border-orange-900.btn td a, .dark-border-orange-900.hr td {
+    border-color: #7c2d12 !important;
+  }
+  .dark-text-orange-950, .dark-text-orange-950 > tbody > tr > td, .dark-text-orange-950.btn td a {
+    color: #431407 !important;
+  }
+  .dark-bg-orange-950, .dark-bg-orange-950 > tbody > tr > td, .dark-bg-orange-950.btn td a {
+    background-color: #431407 !important;
+  }
+  .dark-border-orange-950, .dark-border-orange-950.btn td a, .dark-border-orange-950.hr td {
+    border-color: #431407 !important;
+  }
+  .dark-text-amber-50, .dark-text-amber-50 > tbody > tr > td, .dark-text-amber-50.btn td a {
+    color: #fffbeb !important;
+  }
+  .dark-bg-amber-50, .dark-bg-amber-50 > tbody > tr > td, .dark-bg-amber-50.btn td a {
+    background-color: #fffbeb !important;
+  }
+  .dark-border-amber-50, .dark-border-amber-50.btn td a, .dark-border-amber-50.hr td {
+    border-color: #fffbeb !important;
+  }
+  .dark-text-amber-100, .dark-text-amber-100 > tbody > tr > td, .dark-text-amber-100.btn td a {
+    color: #fef3c7 !important;
+  }
+  .dark-bg-amber-100, .dark-bg-amber-100 > tbody > tr > td, .dark-bg-amber-100.btn td a {
+    background-color: #fef3c7 !important;
+  }
+  .dark-border-amber-100, .dark-border-amber-100.btn td a, .dark-border-amber-100.hr td {
+    border-color: #fef3c7 !important;
+  }
+  .dark-text-amber-200, .dark-text-amber-200 > tbody > tr > td, .dark-text-amber-200.btn td a {
+    color: #fde68a !important;
+  }
+  .dark-bg-amber-200, .dark-bg-amber-200 > tbody > tr > td, .dark-bg-amber-200.btn td a {
+    background-color: #fde68a !important;
+  }
+  .dark-border-amber-200, .dark-border-amber-200.btn td a, .dark-border-amber-200.hr td {
+    border-color: #fde68a !important;
+  }
+  .dark-text-amber-300, .dark-text-amber-300 > tbody > tr > td, .dark-text-amber-300.btn td a {
+    color: #fcd34d !important;
+  }
+  .dark-bg-amber-300, .dark-bg-amber-300 > tbody > tr > td, .dark-bg-amber-300.btn td a {
+    background-color: #fcd34d !important;
+  }
+  .dark-border-amber-300, .dark-border-amber-300.btn td a, .dark-border-amber-300.hr td {
+    border-color: #fcd34d !important;
+  }
+  .dark-text-amber-400, .dark-text-amber-400 > tbody > tr > td, .dark-text-amber-400.btn td a {
+    color: #fbbf24 !important;
+  }
+  .dark-bg-amber-400, .dark-bg-amber-400 > tbody > tr > td, .dark-bg-amber-400.btn td a {
+    background-color: #fbbf24 !important;
+  }
+  .dark-border-amber-400, .dark-border-amber-400.btn td a, .dark-border-amber-400.hr td {
+    border-color: #fbbf24 !important;
+  }
+  .dark-text-amber-500, .dark-text-amber-500 > tbody > tr > td, .dark-text-amber-500.btn td a {
+    color: #f59e0b !important;
+  }
+  .dark-bg-amber-500, .dark-bg-amber-500 > tbody > tr > td, .dark-bg-amber-500.btn td a {
+    background-color: #f59e0b !important;
+  }
+  .dark-border-amber-500, .dark-border-amber-500.btn td a, .dark-border-amber-500.hr td {
+    border-color: #f59e0b !important;
+  }
+  .dark-text-amber-600, .dark-text-amber-600 > tbody > tr > td, .dark-text-amber-600.btn td a {
+    color: #d97706 !important;
+  }
+  .dark-bg-amber-600, .dark-bg-amber-600 > tbody > tr > td, .dark-bg-amber-600.btn td a {
+    background-color: #d97706 !important;
+  }
+  .dark-border-amber-600, .dark-border-amber-600.btn td a, .dark-border-amber-600.hr td {
+    border-color: #d97706 !important;
+  }
+  .dark-text-amber-700, .dark-text-amber-700 > tbody > tr > td, .dark-text-amber-700.btn td a {
+    color: #b45309 !important;
+  }
+  .dark-bg-amber-700, .dark-bg-amber-700 > tbody > tr > td, .dark-bg-amber-700.btn td a {
+    background-color: #b45309 !important;
+  }
+  .dark-border-amber-700, .dark-border-amber-700.btn td a, .dark-border-amber-700.hr td {
+    border-color: #b45309 !important;
+  }
+  .dark-text-amber-800, .dark-text-amber-800 > tbody > tr > td, .dark-text-amber-800.btn td a {
+    color: #92400e !important;
+  }
+  .dark-bg-amber-800, .dark-bg-amber-800 > tbody > tr > td, .dark-bg-amber-800.btn td a {
+    background-color: #92400e !important;
+  }
+  .dark-border-amber-800, .dark-border-amber-800.btn td a, .dark-border-amber-800.hr td {
+    border-color: #92400e !important;
+  }
+  .dark-text-amber-900, .dark-text-amber-900 > tbody > tr > td, .dark-text-amber-900.btn td a {
+    color: #78350f !important;
+  }
+  .dark-bg-amber-900, .dark-bg-amber-900 > tbody > tr > td, .dark-bg-amber-900.btn td a {
+    background-color: #78350f !important;
+  }
+  .dark-border-amber-900, .dark-border-amber-900.btn td a, .dark-border-amber-900.hr td {
+    border-color: #78350f !important;
+  }
+  .dark-text-amber-950, .dark-text-amber-950 > tbody > tr > td, .dark-text-amber-950.btn td a {
+    color: #451a03 !important;
+  }
+  .dark-bg-amber-950, .dark-bg-amber-950 > tbody > tr > td, .dark-bg-amber-950.btn td a {
+    background-color: #451a03 !important;
+  }
+  .dark-border-amber-950, .dark-border-amber-950.btn td a, .dark-border-amber-950.hr td {
+    border-color: #451a03 !important;
+  }
+  .dark-text-yellow-50, .dark-text-yellow-50 > tbody > tr > td, .dark-text-yellow-50.btn td a {
+    color: #fefce8 !important;
+  }
+  .dark-bg-yellow-50, .dark-bg-yellow-50 > tbody > tr > td, .dark-bg-yellow-50.btn td a {
+    background-color: #fefce8 !important;
+  }
+  .dark-border-yellow-50, .dark-border-yellow-50.btn td a, .dark-border-yellow-50.hr td {
+    border-color: #fefce8 !important;
+  }
+  .dark-text-yellow-100, .dark-text-yellow-100 > tbody > tr > td, .dark-text-yellow-100.btn td a {
+    color: #fef9c3 !important;
+  }
+  .dark-bg-yellow-100, .dark-bg-yellow-100 > tbody > tr > td, .dark-bg-yellow-100.btn td a {
+    background-color: #fef9c3 !important;
+  }
+  .dark-border-yellow-100, .dark-border-yellow-100.btn td a, .dark-border-yellow-100.hr td {
+    border-color: #fef9c3 !important;
+  }
+  .dark-text-yellow-200, .dark-text-yellow-200 > tbody > tr > td, .dark-text-yellow-200.btn td a {
+    color: #fef08a !important;
+  }
+  .dark-bg-yellow-200, .dark-bg-yellow-200 > tbody > tr > td, .dark-bg-yellow-200.btn td a {
+    background-color: #fef08a !important;
+  }
+  .dark-border-yellow-200, .dark-border-yellow-200.btn td a, .dark-border-yellow-200.hr td {
+    border-color: #fef08a !important;
+  }
+  .dark-text-yellow-300, .dark-text-yellow-300 > tbody > tr > td, .dark-text-yellow-300.btn td a {
+    color: #fde047 !important;
+  }
+  .dark-bg-yellow-300, .dark-bg-yellow-300 > tbody > tr > td, .dark-bg-yellow-300.btn td a {
+    background-color: #fde047 !important;
+  }
+  .dark-border-yellow-300, .dark-border-yellow-300.btn td a, .dark-border-yellow-300.hr td {
+    border-color: #fde047 !important;
+  }
+  .dark-text-yellow-400, .dark-text-yellow-400 > tbody > tr > td, .dark-text-yellow-400.btn td a {
+    color: #facc15 !important;
+  }
+  .dark-bg-yellow-400, .dark-bg-yellow-400 > tbody > tr > td, .dark-bg-yellow-400.btn td a {
+    background-color: #facc15 !important;
+  }
+  .dark-border-yellow-400, .dark-border-yellow-400.btn td a, .dark-border-yellow-400.hr td {
+    border-color: #facc15 !important;
+  }
+  .dark-text-yellow-500, .dark-text-yellow-500 > tbody > tr > td, .dark-text-yellow-500.btn td a {
+    color: #eab308 !important;
+  }
+  .dark-bg-yellow-500, .dark-bg-yellow-500 > tbody > tr > td, .dark-bg-yellow-500.btn td a {
+    background-color: #eab308 !important;
+  }
+  .dark-border-yellow-500, .dark-border-yellow-500.btn td a, .dark-border-yellow-500.hr td {
+    border-color: #eab308 !important;
+  }
+  .dark-text-yellow-600, .dark-text-yellow-600 > tbody > tr > td, .dark-text-yellow-600.btn td a {
+    color: #ca8a04 !important;
+  }
+  .dark-bg-yellow-600, .dark-bg-yellow-600 > tbody > tr > td, .dark-bg-yellow-600.btn td a {
+    background-color: #ca8a04 !important;
+  }
+  .dark-border-yellow-600, .dark-border-yellow-600.btn td a, .dark-border-yellow-600.hr td {
+    border-color: #ca8a04 !important;
+  }
+  .dark-text-yellow-700, .dark-text-yellow-700 > tbody > tr > td, .dark-text-yellow-700.btn td a {
+    color: #a16207 !important;
+  }
+  .dark-bg-yellow-700, .dark-bg-yellow-700 > tbody > tr > td, .dark-bg-yellow-700.btn td a {
+    background-color: #a16207 !important;
+  }
+  .dark-border-yellow-700, .dark-border-yellow-700.btn td a, .dark-border-yellow-700.hr td {
+    border-color: #a16207 !important;
+  }
+  .dark-text-yellow-800, .dark-text-yellow-800 > tbody > tr > td, .dark-text-yellow-800.btn td a {
+    color: #854d0e !important;
+  }
+  .dark-bg-yellow-800, .dark-bg-yellow-800 > tbody > tr > td, .dark-bg-yellow-800.btn td a {
+    background-color: #854d0e !important;
+  }
+  .dark-border-yellow-800, .dark-border-yellow-800.btn td a, .dark-border-yellow-800.hr td {
+    border-color: #854d0e !important;
+  }
+  .dark-text-yellow-900, .dark-text-yellow-900 > tbody > tr > td, .dark-text-yellow-900.btn td a {
+    color: #713f12 !important;
+  }
+  .dark-bg-yellow-900, .dark-bg-yellow-900 > tbody > tr > td, .dark-bg-yellow-900.btn td a {
+    background-color: #713f12 !important;
+  }
+  .dark-border-yellow-900, .dark-border-yellow-900.btn td a, .dark-border-yellow-900.hr td {
+    border-color: #713f12 !important;
+  }
+  .dark-text-yellow-950, .dark-text-yellow-950 > tbody > tr > td, .dark-text-yellow-950.btn td a {
+    color: #422006 !important;
+  }
+  .dark-bg-yellow-950, .dark-bg-yellow-950 > tbody > tr > td, .dark-bg-yellow-950.btn td a {
+    background-color: #422006 !important;
+  }
+  .dark-border-yellow-950, .dark-border-yellow-950.btn td a, .dark-border-yellow-950.hr td {
+    border-color: #422006 !important;
+  }
+  .dark-text-lime-50, .dark-text-lime-50 > tbody > tr > td, .dark-text-lime-50.btn td a {
+    color: #f7fee7 !important;
+  }
+  .dark-bg-lime-50, .dark-bg-lime-50 > tbody > tr > td, .dark-bg-lime-50.btn td a {
+    background-color: #f7fee7 !important;
+  }
+  .dark-border-lime-50, .dark-border-lime-50.btn td a, .dark-border-lime-50.hr td {
+    border-color: #f7fee7 !important;
+  }
+  .dark-text-lime-100, .dark-text-lime-100 > tbody > tr > td, .dark-text-lime-100.btn td a {
+    color: #ecfccb !important;
+  }
+  .dark-bg-lime-100, .dark-bg-lime-100 > tbody > tr > td, .dark-bg-lime-100.btn td a {
+    background-color: #ecfccb !important;
+  }
+  .dark-border-lime-100, .dark-border-lime-100.btn td a, .dark-border-lime-100.hr td {
+    border-color: #ecfccb !important;
+  }
+  .dark-text-lime-200, .dark-text-lime-200 > tbody > tr > td, .dark-text-lime-200.btn td a {
+    color: #d9f99d !important;
+  }
+  .dark-bg-lime-200, .dark-bg-lime-200 > tbody > tr > td, .dark-bg-lime-200.btn td a {
+    background-color: #d9f99d !important;
+  }
+  .dark-border-lime-200, .dark-border-lime-200.btn td a, .dark-border-lime-200.hr td {
+    border-color: #d9f99d !important;
+  }
+  .dark-text-lime-300, .dark-text-lime-300 > tbody > tr > td, .dark-text-lime-300.btn td a {
+    color: #bef264 !important;
+  }
+  .dark-bg-lime-300, .dark-bg-lime-300 > tbody > tr > td, .dark-bg-lime-300.btn td a {
+    background-color: #bef264 !important;
+  }
+  .dark-border-lime-300, .dark-border-lime-300.btn td a, .dark-border-lime-300.hr td {
+    border-color: #bef264 !important;
+  }
+  .dark-text-lime-400, .dark-text-lime-400 > tbody > tr > td, .dark-text-lime-400.btn td a {
+    color: #a3e635 !important;
+  }
+  .dark-bg-lime-400, .dark-bg-lime-400 > tbody > tr > td, .dark-bg-lime-400.btn td a {
+    background-color: #a3e635 !important;
+  }
+  .dark-border-lime-400, .dark-border-lime-400.btn td a, .dark-border-lime-400.hr td {
+    border-color: #a3e635 !important;
+  }
+  .dark-text-lime-500, .dark-text-lime-500 > tbody > tr > td, .dark-text-lime-500.btn td a {
+    color: #84cc16 !important;
+  }
+  .dark-bg-lime-500, .dark-bg-lime-500 > tbody > tr > td, .dark-bg-lime-500.btn td a {
+    background-color: #84cc16 !important;
+  }
+  .dark-border-lime-500, .dark-border-lime-500.btn td a, .dark-border-lime-500.hr td {
+    border-color: #84cc16 !important;
+  }
+  .dark-text-lime-600, .dark-text-lime-600 > tbody > tr > td, .dark-text-lime-600.btn td a {
+    color: #65a30d !important;
+  }
+  .dark-bg-lime-600, .dark-bg-lime-600 > tbody > tr > td, .dark-bg-lime-600.btn td a {
+    background-color: #65a30d !important;
+  }
+  .dark-border-lime-600, .dark-border-lime-600.btn td a, .dark-border-lime-600.hr td {
+    border-color: #65a30d !important;
+  }
+  .dark-text-lime-700, .dark-text-lime-700 > tbody > tr > td, .dark-text-lime-700.btn td a {
+    color: #4d7c0f !important;
+  }
+  .dark-bg-lime-700, .dark-bg-lime-700 > tbody > tr > td, .dark-bg-lime-700.btn td a {
+    background-color: #4d7c0f !important;
+  }
+  .dark-border-lime-700, .dark-border-lime-700.btn td a, .dark-border-lime-700.hr td {
+    border-color: #4d7c0f !important;
+  }
+  .dark-text-lime-800, .dark-text-lime-800 > tbody > tr > td, .dark-text-lime-800.btn td a {
+    color: #3f6212 !important;
+  }
+  .dark-bg-lime-800, .dark-bg-lime-800 > tbody > tr > td, .dark-bg-lime-800.btn td a {
+    background-color: #3f6212 !important;
+  }
+  .dark-border-lime-800, .dark-border-lime-800.btn td a, .dark-border-lime-800.hr td {
+    border-color: #3f6212 !important;
+  }
+  .dark-text-lime-900, .dark-text-lime-900 > tbody > tr > td, .dark-text-lime-900.btn td a {
+    color: #365314 !important;
+  }
+  .dark-bg-lime-900, .dark-bg-lime-900 > tbody > tr > td, .dark-bg-lime-900.btn td a {
+    background-color: #365314 !important;
+  }
+  .dark-border-lime-900, .dark-border-lime-900.btn td a, .dark-border-lime-900.hr td {
+    border-color: #365314 !important;
+  }
+  .dark-text-lime-950, .dark-text-lime-950 > tbody > tr > td, .dark-text-lime-950.btn td a {
+    color: #1a2e05 !important;
+  }
+  .dark-bg-lime-950, .dark-bg-lime-950 > tbody > tr > td, .dark-bg-lime-950.btn td a {
+    background-color: #1a2e05 !important;
+  }
+  .dark-border-lime-950, .dark-border-lime-950.btn td a, .dark-border-lime-950.hr td {
+    border-color: #1a2e05 !important;
+  }
+  .dark-text-green-50, .dark-text-green-50 > tbody > tr > td, .dark-text-green-50.btn td a {
+    color: #f0fdf4 !important;
+  }
+  .dark-bg-green-50, .dark-bg-green-50 > tbody > tr > td, .dark-bg-green-50.btn td a {
+    background-color: #f0fdf4 !important;
+  }
+  .dark-border-green-50, .dark-border-green-50.btn td a, .dark-border-green-50.hr td {
+    border-color: #f0fdf4 !important;
+  }
+  .dark-text-green-100, .dark-text-green-100 > tbody > tr > td, .dark-text-green-100.btn td a {
+    color: #dcfce7 !important;
+  }
+  .dark-bg-green-100, .dark-bg-green-100 > tbody > tr > td, .dark-bg-green-100.btn td a {
+    background-color: #dcfce7 !important;
+  }
+  .dark-border-green-100, .dark-border-green-100.btn td a, .dark-border-green-100.hr td {
+    border-color: #dcfce7 !important;
+  }
+  .dark-text-green-200, .dark-text-green-200 > tbody > tr > td, .dark-text-green-200.btn td a {
+    color: #bbf7d0 !important;
+  }
+  .dark-bg-green-200, .dark-bg-green-200 > tbody > tr > td, .dark-bg-green-200.btn td a {
+    background-color: #bbf7d0 !important;
+  }
+  .dark-border-green-200, .dark-border-green-200.btn td a, .dark-border-green-200.hr td {
+    border-color: #bbf7d0 !important;
+  }
+  .dark-text-green-300, .dark-text-green-300 > tbody > tr > td, .dark-text-green-300.btn td a {
+    color: #86efac !important;
+  }
+  .dark-bg-green-300, .dark-bg-green-300 > tbody > tr > td, .dark-bg-green-300.btn td a {
+    background-color: #86efac !important;
+  }
+  .dark-border-green-300, .dark-border-green-300.btn td a, .dark-border-green-300.hr td {
+    border-color: #86efac !important;
+  }
+  .dark-text-green-400, .dark-text-green-400 > tbody > tr > td, .dark-text-green-400.btn td a {
+    color: #4ade80 !important;
+  }
+  .dark-bg-green-400, .dark-bg-green-400 > tbody > tr > td, .dark-bg-green-400.btn td a {
+    background-color: #4ade80 !important;
+  }
+  .dark-border-green-400, .dark-border-green-400.btn td a, .dark-border-green-400.hr td {
+    border-color: #4ade80 !important;
+  }
+  .dark-text-green-500, .dark-text-green-500 > tbody > tr > td, .dark-text-green-500.btn td a {
+    color: #22c55e !important;
+  }
+  .dark-bg-green-500, .dark-bg-green-500 > tbody > tr > td, .dark-bg-green-500.btn td a {
+    background-color: #22c55e !important;
+  }
+  .dark-border-green-500, .dark-border-green-500.btn td a, .dark-border-green-500.hr td {
+    border-color: #22c55e !important;
+  }
+  .dark-text-green-600, .dark-text-green-600 > tbody > tr > td, .dark-text-green-600.btn td a {
+    color: #16a34a !important;
+  }
+  .dark-bg-green-600, .dark-bg-green-600 > tbody > tr > td, .dark-bg-green-600.btn td a {
+    background-color: #16a34a !important;
+  }
+  .dark-border-green-600, .dark-border-green-600.btn td a, .dark-border-green-600.hr td {
+    border-color: #16a34a !important;
+  }
+  .dark-text-green-700, .dark-text-green-700 > tbody > tr > td, .dark-text-green-700.btn td a {
+    color: #15803d !important;
+  }
+  .dark-bg-green-700, .dark-bg-green-700 > tbody > tr > td, .dark-bg-green-700.btn td a {
+    background-color: #15803d !important;
+  }
+  .dark-border-green-700, .dark-border-green-700.btn td a, .dark-border-green-700.hr td {
+    border-color: #15803d !important;
+  }
+  .dark-text-green-800, .dark-text-green-800 > tbody > tr > td, .dark-text-green-800.btn td a {
+    color: #166534 !important;
+  }
+  .dark-bg-green-800, .dark-bg-green-800 > tbody > tr > td, .dark-bg-green-800.btn td a {
+    background-color: #166534 !important;
+  }
+  .dark-border-green-800, .dark-border-green-800.btn td a, .dark-border-green-800.hr td {
+    border-color: #166534 !important;
+  }
+  .dark-text-green-900, .dark-text-green-900 > tbody > tr > td, .dark-text-green-900.btn td a {
+    color: #14532d !important;
+  }
+  .dark-bg-green-900, .dark-bg-green-900 > tbody > tr > td, .dark-bg-green-900.btn td a {
+    background-color: #14532d !important;
+  }
+  .dark-border-green-900, .dark-border-green-900.btn td a, .dark-border-green-900.hr td {
+    border-color: #14532d !important;
+  }
+  .dark-text-green-950, .dark-text-green-950 > tbody > tr > td, .dark-text-green-950.btn td a {
+    color: #052e16 !important;
+  }
+  .dark-bg-green-950, .dark-bg-green-950 > tbody > tr > td, .dark-bg-green-950.btn td a {
+    background-color: #052e16 !important;
+  }
+  .dark-border-green-950, .dark-border-green-950.btn td a, .dark-border-green-950.hr td {
+    border-color: #052e16 !important;
+  }
+  .dark-text-emerald-50, .dark-text-emerald-50 > tbody > tr > td, .dark-text-emerald-50.btn td a {
+    color: #ecfdf5 !important;
+  }
+  .dark-bg-emerald-50, .dark-bg-emerald-50 > tbody > tr > td, .dark-bg-emerald-50.btn td a {
+    background-color: #ecfdf5 !important;
+  }
+  .dark-border-emerald-50, .dark-border-emerald-50.btn td a, .dark-border-emerald-50.hr td {
+    border-color: #ecfdf5 !important;
+  }
+  .dark-text-emerald-100, .dark-text-emerald-100 > tbody > tr > td, .dark-text-emerald-100.btn td a {
+    color: #d1fae5 !important;
+  }
+  .dark-bg-emerald-100, .dark-bg-emerald-100 > tbody > tr > td, .dark-bg-emerald-100.btn td a {
+    background-color: #d1fae5 !important;
+  }
+  .dark-border-emerald-100, .dark-border-emerald-100.btn td a, .dark-border-emerald-100.hr td {
+    border-color: #d1fae5 !important;
+  }
+  .dark-text-emerald-200, .dark-text-emerald-200 > tbody > tr > td, .dark-text-emerald-200.btn td a {
+    color: #a7f3d0 !important;
+  }
+  .dark-bg-emerald-200, .dark-bg-emerald-200 > tbody > tr > td, .dark-bg-emerald-200.btn td a {
+    background-color: #a7f3d0 !important;
+  }
+  .dark-border-emerald-200, .dark-border-emerald-200.btn td a, .dark-border-emerald-200.hr td {
+    border-color: #a7f3d0 !important;
+  }
+  .dark-text-emerald-300, .dark-text-emerald-300 > tbody > tr > td, .dark-text-emerald-300.btn td a {
+    color: #6ee7b7 !important;
+  }
+  .dark-bg-emerald-300, .dark-bg-emerald-300 > tbody > tr > td, .dark-bg-emerald-300.btn td a {
+    background-color: #6ee7b7 !important;
+  }
+  .dark-border-emerald-300, .dark-border-emerald-300.btn td a, .dark-border-emerald-300.hr td {
+    border-color: #6ee7b7 !important;
+  }
+  .dark-text-emerald-400, .dark-text-emerald-400 > tbody > tr > td, .dark-text-emerald-400.btn td a {
+    color: #34d399 !important;
+  }
+  .dark-bg-emerald-400, .dark-bg-emerald-400 > tbody > tr > td, .dark-bg-emerald-400.btn td a {
+    background-color: #34d399 !important;
+  }
+  .dark-border-emerald-400, .dark-border-emerald-400.btn td a, .dark-border-emerald-400.hr td {
+    border-color: #34d399 !important;
+  }
+  .dark-text-emerald-500, .dark-text-emerald-500 > tbody > tr > td, .dark-text-emerald-500.btn td a {
+    color: #10b981 !important;
+  }
+  .dark-bg-emerald-500, .dark-bg-emerald-500 > tbody > tr > td, .dark-bg-emerald-500.btn td a {
+    background-color: #10b981 !important;
+  }
+  .dark-border-emerald-500, .dark-border-emerald-500.btn td a, .dark-border-emerald-500.hr td {
+    border-color: #10b981 !important;
+  }
+  .dark-text-emerald-600, .dark-text-emerald-600 > tbody > tr > td, .dark-text-emerald-600.btn td a {
+    color: #059669 !important;
+  }
+  .dark-bg-emerald-600, .dark-bg-emerald-600 > tbody > tr > td, .dark-bg-emerald-600.btn td a {
+    background-color: #059669 !important;
+  }
+  .dark-border-emerald-600, .dark-border-emerald-600.btn td a, .dark-border-emerald-600.hr td {
+    border-color: #059669 !important;
+  }
+  .dark-text-emerald-700, .dark-text-emerald-700 > tbody > tr > td, .dark-text-emerald-700.btn td a {
+    color: #047857 !important;
+  }
+  .dark-bg-emerald-700, .dark-bg-emerald-700 > tbody > tr > td, .dark-bg-emerald-700.btn td a {
+    background-color: #047857 !important;
+  }
+  .dark-border-emerald-700, .dark-border-emerald-700.btn td a, .dark-border-emerald-700.hr td {
+    border-color: #047857 !important;
+  }
+  .dark-text-emerald-800, .dark-text-emerald-800 > tbody > tr > td, .dark-text-emerald-800.btn td a {
+    color: #065f46 !important;
+  }
+  .dark-bg-emerald-800, .dark-bg-emerald-800 > tbody > tr > td, .dark-bg-emerald-800.btn td a {
+    background-color: #065f46 !important;
+  }
+  .dark-border-emerald-800, .dark-border-emerald-800.btn td a, .dark-border-emerald-800.hr td {
+    border-color: #065f46 !important;
+  }
+  .dark-text-emerald-900, .dark-text-emerald-900 > tbody > tr > td, .dark-text-emerald-900.btn td a {
+    color: #064e3b !important;
+  }
+  .dark-bg-emerald-900, .dark-bg-emerald-900 > tbody > tr > td, .dark-bg-emerald-900.btn td a {
+    background-color: #064e3b !important;
+  }
+  .dark-border-emerald-900, .dark-border-emerald-900.btn td a, .dark-border-emerald-900.hr td {
+    border-color: #064e3b !important;
+  }
+  .dark-text-emerald-950, .dark-text-emerald-950 > tbody > tr > td, .dark-text-emerald-950.btn td a {
+    color: #022c22 !important;
+  }
+  .dark-bg-emerald-950, .dark-bg-emerald-950 > tbody > tr > td, .dark-bg-emerald-950.btn td a {
+    background-color: #022c22 !important;
+  }
+  .dark-border-emerald-950, .dark-border-emerald-950.btn td a, .dark-border-emerald-950.hr td {
+    border-color: #022c22 !important;
+  }
+  .dark-text-teal-50, .dark-text-teal-50 > tbody > tr > td, .dark-text-teal-50.btn td a {
+    color: #f0fdfa !important;
+  }
+  .dark-bg-teal-50, .dark-bg-teal-50 > tbody > tr > td, .dark-bg-teal-50.btn td a {
+    background-color: #f0fdfa !important;
+  }
+  .dark-border-teal-50, .dark-border-teal-50.btn td a, .dark-border-teal-50.hr td {
+    border-color: #f0fdfa !important;
+  }
+  .dark-text-teal-100, .dark-text-teal-100 > tbody > tr > td, .dark-text-teal-100.btn td a {
+    color: #ccfbf1 !important;
+  }
+  .dark-bg-teal-100, .dark-bg-teal-100 > tbody > tr > td, .dark-bg-teal-100.btn td a {
+    background-color: #ccfbf1 !important;
+  }
+  .dark-border-teal-100, .dark-border-teal-100.btn td a, .dark-border-teal-100.hr td {
+    border-color: #ccfbf1 !important;
+  }
+  .dark-text-teal-200, .dark-text-teal-200 > tbody > tr > td, .dark-text-teal-200.btn td a {
+    color: #99f6e4 !important;
+  }
+  .dark-bg-teal-200, .dark-bg-teal-200 > tbody > tr > td, .dark-bg-teal-200.btn td a {
+    background-color: #99f6e4 !important;
+  }
+  .dark-border-teal-200, .dark-border-teal-200.btn td a, .dark-border-teal-200.hr td {
+    border-color: #99f6e4 !important;
+  }
+  .dark-text-teal-300, .dark-text-teal-300 > tbody > tr > td, .dark-text-teal-300.btn td a {
+    color: #5eead4 !important;
+  }
+  .dark-bg-teal-300, .dark-bg-teal-300 > tbody > tr > td, .dark-bg-teal-300.btn td a {
+    background-color: #5eead4 !important;
+  }
+  .dark-border-teal-300, .dark-border-teal-300.btn td a, .dark-border-teal-300.hr td {
+    border-color: #5eead4 !important;
+  }
+  .dark-text-teal-400, .dark-text-teal-400 > tbody > tr > td, .dark-text-teal-400.btn td a {
+    color: #2dd4bf !important;
+  }
+  .dark-bg-teal-400, .dark-bg-teal-400 > tbody > tr > td, .dark-bg-teal-400.btn td a {
+    background-color: #2dd4bf !important;
+  }
+  .dark-border-teal-400, .dark-border-teal-400.btn td a, .dark-border-teal-400.hr td {
+    border-color: #2dd4bf !important;
+  }
+  .dark-text-teal-500, .dark-text-teal-500 > tbody > tr > td, .dark-text-teal-500.btn td a {
+    color: #14b8a6 !important;
+  }
+  .dark-bg-teal-500, .dark-bg-teal-500 > tbody > tr > td, .dark-bg-teal-500.btn td a {
+    background-color: #14b8a6 !important;
+  }
+  .dark-border-teal-500, .dark-border-teal-500.btn td a, .dark-border-teal-500.hr td {
+    border-color: #14b8a6 !important;
+  }
+  .dark-text-teal-600, .dark-text-teal-600 > tbody > tr > td, .dark-text-teal-600.btn td a {
+    color: #0d9488 !important;
+  }
+  .dark-bg-teal-600, .dark-bg-teal-600 > tbody > tr > td, .dark-bg-teal-600.btn td a {
+    background-color: #0d9488 !important;
+  }
+  .dark-border-teal-600, .dark-border-teal-600.btn td a, .dark-border-teal-600.hr td {
+    border-color: #0d9488 !important;
+  }
+  .dark-text-teal-700, .dark-text-teal-700 > tbody > tr > td, .dark-text-teal-700.btn td a {
+    color: #0f766e !important;
+  }
+  .dark-bg-teal-700, .dark-bg-teal-700 > tbody > tr > td, .dark-bg-teal-700.btn td a {
+    background-color: #0f766e !important;
+  }
+  .dark-border-teal-700, .dark-border-teal-700.btn td a, .dark-border-teal-700.hr td {
+    border-color: #0f766e !important;
+  }
+  .dark-text-teal-800, .dark-text-teal-800 > tbody > tr > td, .dark-text-teal-800.btn td a {
+    color: #115e59 !important;
+  }
+  .dark-bg-teal-800, .dark-bg-teal-800 > tbody > tr > td, .dark-bg-teal-800.btn td a {
+    background-color: #115e59 !important;
+  }
+  .dark-border-teal-800, .dark-border-teal-800.btn td a, .dark-border-teal-800.hr td {
+    border-color: #115e59 !important;
+  }
+  .dark-text-teal-900, .dark-text-teal-900 > tbody > tr > td, .dark-text-teal-900.btn td a {
+    color: #134e4a !important;
+  }
+  .dark-bg-teal-900, .dark-bg-teal-900 > tbody > tr > td, .dark-bg-teal-900.btn td a {
+    background-color: #134e4a !important;
+  }
+  .dark-border-teal-900, .dark-border-teal-900.btn td a, .dark-border-teal-900.hr td {
+    border-color: #134e4a !important;
+  }
+  .dark-text-teal-950, .dark-text-teal-950 > tbody > tr > td, .dark-text-teal-950.btn td a {
+    color: #042f2e !important;
+  }
+  .dark-bg-teal-950, .dark-bg-teal-950 > tbody > tr > td, .dark-bg-teal-950.btn td a {
+    background-color: #042f2e !important;
+  }
+  .dark-border-teal-950, .dark-border-teal-950.btn td a, .dark-border-teal-950.hr td {
+    border-color: #042f2e !important;
+  }
+  .dark-text-cyan-50, .dark-text-cyan-50 > tbody > tr > td, .dark-text-cyan-50.btn td a {
+    color: #ecfeff !important;
+  }
+  .dark-bg-cyan-50, .dark-bg-cyan-50 > tbody > tr > td, .dark-bg-cyan-50.btn td a {
+    background-color: #ecfeff !important;
+  }
+  .dark-border-cyan-50, .dark-border-cyan-50.btn td a, .dark-border-cyan-50.hr td {
+    border-color: #ecfeff !important;
+  }
+  .dark-text-cyan-100, .dark-text-cyan-100 > tbody > tr > td, .dark-text-cyan-100.btn td a {
+    color: #cffafe !important;
+  }
+  .dark-bg-cyan-100, .dark-bg-cyan-100 > tbody > tr > td, .dark-bg-cyan-100.btn td a {
+    background-color: #cffafe !important;
+  }
+  .dark-border-cyan-100, .dark-border-cyan-100.btn td a, .dark-border-cyan-100.hr td {
+    border-color: #cffafe !important;
+  }
+  .dark-text-cyan-200, .dark-text-cyan-200 > tbody > tr > td, .dark-text-cyan-200.btn td a {
+    color: #a5f3fc !important;
+  }
+  .dark-bg-cyan-200, .dark-bg-cyan-200 > tbody > tr > td, .dark-bg-cyan-200.btn td a {
+    background-color: #a5f3fc !important;
+  }
+  .dark-border-cyan-200, .dark-border-cyan-200.btn td a, .dark-border-cyan-200.hr td {
+    border-color: #a5f3fc !important;
+  }
+  .dark-text-cyan-300, .dark-text-cyan-300 > tbody > tr > td, .dark-text-cyan-300.btn td a {
+    color: #67e8f9 !important;
+  }
+  .dark-bg-cyan-300, .dark-bg-cyan-300 > tbody > tr > td, .dark-bg-cyan-300.btn td a {
+    background-color: #67e8f9 !important;
+  }
+  .dark-border-cyan-300, .dark-border-cyan-300.btn td a, .dark-border-cyan-300.hr td {
+    border-color: #67e8f9 !important;
+  }
+  .dark-text-cyan-400, .dark-text-cyan-400 > tbody > tr > td, .dark-text-cyan-400.btn td a {
+    color: #22d3ee !important;
+  }
+  .dark-bg-cyan-400, .dark-bg-cyan-400 > tbody > tr > td, .dark-bg-cyan-400.btn td a {
+    background-color: #22d3ee !important;
+  }
+  .dark-border-cyan-400, .dark-border-cyan-400.btn td a, .dark-border-cyan-400.hr td {
+    border-color: #22d3ee !important;
+  }
+  .dark-text-cyan-500, .dark-text-cyan-500 > tbody > tr > td, .dark-text-cyan-500.btn td a {
+    color: #06b6d4 !important;
+  }
+  .dark-bg-cyan-500, .dark-bg-cyan-500 > tbody > tr > td, .dark-bg-cyan-500.btn td a {
+    background-color: #06b6d4 !important;
+  }
+  .dark-border-cyan-500, .dark-border-cyan-500.btn td a, .dark-border-cyan-500.hr td {
+    border-color: #06b6d4 !important;
+  }
+  .dark-text-cyan-600, .dark-text-cyan-600 > tbody > tr > td, .dark-text-cyan-600.btn td a {
+    color: #0891b2 !important;
+  }
+  .dark-bg-cyan-600, .dark-bg-cyan-600 > tbody > tr > td, .dark-bg-cyan-600.btn td a {
+    background-color: #0891b2 !important;
+  }
+  .dark-border-cyan-600, .dark-border-cyan-600.btn td a, .dark-border-cyan-600.hr td {
+    border-color: #0891b2 !important;
+  }
+  .dark-text-cyan-700, .dark-text-cyan-700 > tbody > tr > td, .dark-text-cyan-700.btn td a {
+    color: #0e7490 !important;
+  }
+  .dark-bg-cyan-700, .dark-bg-cyan-700 > tbody > tr > td, .dark-bg-cyan-700.btn td a {
+    background-color: #0e7490 !important;
+  }
+  .dark-border-cyan-700, .dark-border-cyan-700.btn td a, .dark-border-cyan-700.hr td {
+    border-color: #0e7490 !important;
+  }
+  .dark-text-cyan-800, .dark-text-cyan-800 > tbody > tr > td, .dark-text-cyan-800.btn td a {
+    color: #155e75 !important;
+  }
+  .dark-bg-cyan-800, .dark-bg-cyan-800 > tbody > tr > td, .dark-bg-cyan-800.btn td a {
+    background-color: #155e75 !important;
+  }
+  .dark-border-cyan-800, .dark-border-cyan-800.btn td a, .dark-border-cyan-800.hr td {
+    border-color: #155e75 !important;
+  }
+  .dark-text-cyan-900, .dark-text-cyan-900 > tbody > tr > td, .dark-text-cyan-900.btn td a {
+    color: #164e63 !important;
+  }
+  .dark-bg-cyan-900, .dark-bg-cyan-900 > tbody > tr > td, .dark-bg-cyan-900.btn td a {
+    background-color: #164e63 !important;
+  }
+  .dark-border-cyan-900, .dark-border-cyan-900.btn td a, .dark-border-cyan-900.hr td {
+    border-color: #164e63 !important;
+  }
+  .dark-text-cyan-950, .dark-text-cyan-950 > tbody > tr > td, .dark-text-cyan-950.btn td a {
+    color: #083344 !important;
+  }
+  .dark-bg-cyan-950, .dark-bg-cyan-950 > tbody > tr > td, .dark-bg-cyan-950.btn td a {
+    background-color: #083344 !important;
+  }
+  .dark-border-cyan-950, .dark-border-cyan-950.btn td a, .dark-border-cyan-950.hr td {
+    border-color: #083344 !important;
+  }
+  .dark-text-sky-50, .dark-text-sky-50 > tbody > tr > td, .dark-text-sky-50.btn td a {
+    color: #f0f9ff !important;
+  }
+  .dark-bg-sky-50, .dark-bg-sky-50 > tbody > tr > td, .dark-bg-sky-50.btn td a {
+    background-color: #f0f9ff !important;
+  }
+  .dark-border-sky-50, .dark-border-sky-50.btn td a, .dark-border-sky-50.hr td {
+    border-color: #f0f9ff !important;
+  }
+  .dark-text-sky-100, .dark-text-sky-100 > tbody > tr > td, .dark-text-sky-100.btn td a {
+    color: #e0f2fe !important;
+  }
+  .dark-bg-sky-100, .dark-bg-sky-100 > tbody > tr > td, .dark-bg-sky-100.btn td a {
+    background-color: #e0f2fe !important;
+  }
+  .dark-border-sky-100, .dark-border-sky-100.btn td a, .dark-border-sky-100.hr td {
+    border-color: #e0f2fe !important;
+  }
+  .dark-text-sky-200, .dark-text-sky-200 > tbody > tr > td, .dark-text-sky-200.btn td a {
+    color: #bae6fd !important;
+  }
+  .dark-bg-sky-200, .dark-bg-sky-200 > tbody > tr > td, .dark-bg-sky-200.btn td a {
+    background-color: #bae6fd !important;
+  }
+  .dark-border-sky-200, .dark-border-sky-200.btn td a, .dark-border-sky-200.hr td {
+    border-color: #bae6fd !important;
+  }
+  .dark-text-sky-300, .dark-text-sky-300 > tbody > tr > td, .dark-text-sky-300.btn td a {
+    color: #7dd3fc !important;
+  }
+  .dark-bg-sky-300, .dark-bg-sky-300 > tbody > tr > td, .dark-bg-sky-300.btn td a {
+    background-color: #7dd3fc !important;
+  }
+  .dark-border-sky-300, .dark-border-sky-300.btn td a, .dark-border-sky-300.hr td {
+    border-color: #7dd3fc !important;
+  }
+  .dark-text-sky-400, .dark-text-sky-400 > tbody > tr > td, .dark-text-sky-400.btn td a {
+    color: #38bdf8 !important;
+  }
+  .dark-bg-sky-400, .dark-bg-sky-400 > tbody > tr > td, .dark-bg-sky-400.btn td a {
+    background-color: #38bdf8 !important;
+  }
+  .dark-border-sky-400, .dark-border-sky-400.btn td a, .dark-border-sky-400.hr td {
+    border-color: #38bdf8 !important;
+  }
+  .dark-text-sky-500, .dark-text-sky-500 > tbody > tr > td, .dark-text-sky-500.btn td a {
+    color: #0ea5e9 !important;
+  }
+  .dark-bg-sky-500, .dark-bg-sky-500 > tbody > tr > td, .dark-bg-sky-500.btn td a {
+    background-color: #0ea5e9 !important;
+  }
+  .dark-border-sky-500, .dark-border-sky-500.btn td a, .dark-border-sky-500.hr td {
+    border-color: #0ea5e9 !important;
+  }
+  .dark-text-sky-600, .dark-text-sky-600 > tbody > tr > td, .dark-text-sky-600.btn td a {
+    color: #0284c7 !important;
+  }
+  .dark-bg-sky-600, .dark-bg-sky-600 > tbody > tr > td, .dark-bg-sky-600.btn td a {
+    background-color: #0284c7 !important;
+  }
+  .dark-border-sky-600, .dark-border-sky-600.btn td a, .dark-border-sky-600.hr td {
+    border-color: #0284c7 !important;
+  }
+  .dark-text-sky-700, .dark-text-sky-700 > tbody > tr > td, .dark-text-sky-700.btn td a {
+    color: #0369a1 !important;
+  }
+  .dark-bg-sky-700, .dark-bg-sky-700 > tbody > tr > td, .dark-bg-sky-700.btn td a {
+    background-color: #0369a1 !important;
+  }
+  .dark-border-sky-700, .dark-border-sky-700.btn td a, .dark-border-sky-700.hr td {
+    border-color: #0369a1 !important;
+  }
+  .dark-text-sky-800, .dark-text-sky-800 > tbody > tr > td, .dark-text-sky-800.btn td a {
+    color: #075985 !important;
+  }
+  .dark-bg-sky-800, .dark-bg-sky-800 > tbody > tr > td, .dark-bg-sky-800.btn td a {
+    background-color: #075985 !important;
+  }
+  .dark-border-sky-800, .dark-border-sky-800.btn td a, .dark-border-sky-800.hr td {
+    border-color: #075985 !important;
+  }
+  .dark-text-sky-900, .dark-text-sky-900 > tbody > tr > td, .dark-text-sky-900.btn td a {
+    color: #0c4a6e !important;
+  }
+  .dark-bg-sky-900, .dark-bg-sky-900 > tbody > tr > td, .dark-bg-sky-900.btn td a {
+    background-color: #0c4a6e !important;
+  }
+  .dark-border-sky-900, .dark-border-sky-900.btn td a, .dark-border-sky-900.hr td {
+    border-color: #0c4a6e !important;
+  }
+  .dark-text-sky-950, .dark-text-sky-950 > tbody > tr > td, .dark-text-sky-950.btn td a {
+    color: #082f49 !important;
+  }
+  .dark-bg-sky-950, .dark-bg-sky-950 > tbody > tr > td, .dark-bg-sky-950.btn td a {
+    background-color: #082f49 !important;
+  }
+  .dark-border-sky-950, .dark-border-sky-950.btn td a, .dark-border-sky-950.hr td {
+    border-color: #082f49 !important;
+  }
+  .dark-text-blue-50, .dark-text-blue-50 > tbody > tr > td, .dark-text-blue-50.btn td a {
+    color: #eff6ff !important;
+  }
+  .dark-bg-blue-50, .dark-bg-blue-50 > tbody > tr > td, .dark-bg-blue-50.btn td a {
+    background-color: #eff6ff !important;
+  }
+  .dark-border-blue-50, .dark-border-blue-50.btn td a, .dark-border-blue-50.hr td {
+    border-color: #eff6ff !important;
+  }
+  .dark-text-blue-100, .dark-text-blue-100 > tbody > tr > td, .dark-text-blue-100.btn td a {
+    color: #dbeafe !important;
+  }
+  .dark-bg-blue-100, .dark-bg-blue-100 > tbody > tr > td, .dark-bg-blue-100.btn td a {
+    background-color: #dbeafe !important;
+  }
+  .dark-border-blue-100, .dark-border-blue-100.btn td a, .dark-border-blue-100.hr td {
+    border-color: #dbeafe !important;
+  }
+  .dark-text-blue-200, .dark-text-blue-200 > tbody > tr > td, .dark-text-blue-200.btn td a {
+    color: #bfdbfe !important;
+  }
+  .dark-bg-blue-200, .dark-bg-blue-200 > tbody > tr > td, .dark-bg-blue-200.btn td a {
+    background-color: #bfdbfe !important;
+  }
+  .dark-border-blue-200, .dark-border-blue-200.btn td a, .dark-border-blue-200.hr td {
+    border-color: #bfdbfe !important;
+  }
+  .dark-text-blue-300, .dark-text-blue-300 > tbody > tr > td, .dark-text-blue-300.btn td a {
+    color: #93c5fd !important;
+  }
+  .dark-bg-blue-300, .dark-bg-blue-300 > tbody > tr > td, .dark-bg-blue-300.btn td a {
+    background-color: #93c5fd !important;
+  }
+  .dark-border-blue-300, .dark-border-blue-300.btn td a, .dark-border-blue-300.hr td {
+    border-color: #93c5fd !important;
+  }
+  .dark-text-blue-400, .dark-text-blue-400 > tbody > tr > td, .dark-text-blue-400.btn td a {
+    color: #60a5fa !important;
+  }
+  .dark-bg-blue-400, .dark-bg-blue-400 > tbody > tr > td, .dark-bg-blue-400.btn td a {
+    background-color: #60a5fa !important;
+  }
+  .dark-border-blue-400, .dark-border-blue-400.btn td a, .dark-border-blue-400.hr td {
+    border-color: #60a5fa !important;
+  }
+  .dark-text-blue-500, .dark-text-blue-500 > tbody > tr > td, .dark-text-blue-500.btn td a {
+    color: #3b82f6 !important;
+  }
+  .dark-bg-blue-500, .dark-bg-blue-500 > tbody > tr > td, .dark-bg-blue-500.btn td a {
+    background-color: #3b82f6 !important;
+  }
+  .dark-border-blue-500, .dark-border-blue-500.btn td a, .dark-border-blue-500.hr td {
+    border-color: #3b82f6 !important;
+  }
+  .dark-text-blue-600, .dark-text-blue-600 > tbody > tr > td, .dark-text-blue-600.btn td a {
+    color: #2563eb !important;
+  }
+  .dark-bg-blue-600, .dark-bg-blue-600 > tbody > tr > td, .dark-bg-blue-600.btn td a {
+    background-color: #2563eb !important;
+  }
+  .dark-border-blue-600, .dark-border-blue-600.btn td a, .dark-border-blue-600.hr td {
+    border-color: #2563eb !important;
+  }
+  .dark-text-blue-700, .dark-text-blue-700 > tbody > tr > td, .dark-text-blue-700.btn td a {
+    color: #1d4ed8 !important;
+  }
+  .dark-bg-blue-700, .dark-bg-blue-700 > tbody > tr > td, .dark-bg-blue-700.btn td a {
+    background-color: #1d4ed8 !important;
+  }
+  .dark-border-blue-700, .dark-border-blue-700.btn td a, .dark-border-blue-700.hr td {
+    border-color: #1d4ed8 !important;
+  }
+  .dark-text-blue-800, .dark-text-blue-800 > tbody > tr > td, .dark-text-blue-800.btn td a {
+    color: #1e40af !important;
+  }
+  .dark-bg-blue-800, .dark-bg-blue-800 > tbody > tr > td, .dark-bg-blue-800.btn td a {
+    background-color: #1e40af !important;
+  }
+  .dark-border-blue-800, .dark-border-blue-800.btn td a, .dark-border-blue-800.hr td {
+    border-color: #1e40af !important;
+  }
+  .dark-text-blue-900, .dark-text-blue-900 > tbody > tr > td, .dark-text-blue-900.btn td a {
+    color: #1e3a8a !important;
+  }
+  .dark-bg-blue-900, .dark-bg-blue-900 > tbody > tr > td, .dark-bg-blue-900.btn td a {
+    background-color: #1e3a8a !important;
+  }
+  .dark-border-blue-900, .dark-border-blue-900.btn td a, .dark-border-blue-900.hr td {
+    border-color: #1e3a8a !important;
+  }
+  .dark-text-blue-950, .dark-text-blue-950 > tbody > tr > td, .dark-text-blue-950.btn td a {
+    color: #172554 !important;
+  }
+  .dark-bg-blue-950, .dark-bg-blue-950 > tbody > tr > td, .dark-bg-blue-950.btn td a {
+    background-color: #172554 !important;
+  }
+  .dark-border-blue-950, .dark-border-blue-950.btn td a, .dark-border-blue-950.hr td {
+    border-color: #172554 !important;
+  }
+  .dark-text-indigo-50, .dark-text-indigo-50 > tbody > tr > td, .dark-text-indigo-50.btn td a {
+    color: #eef2ff !important;
+  }
+  .dark-bg-indigo-50, .dark-bg-indigo-50 > tbody > tr > td, .dark-bg-indigo-50.btn td a {
+    background-color: #eef2ff !important;
+  }
+  .dark-border-indigo-50, .dark-border-indigo-50.btn td a, .dark-border-indigo-50.hr td {
+    border-color: #eef2ff !important;
+  }
+  .dark-text-indigo-100, .dark-text-indigo-100 > tbody > tr > td, .dark-text-indigo-100.btn td a {
+    color: #e0e7ff !important;
+  }
+  .dark-bg-indigo-100, .dark-bg-indigo-100 > tbody > tr > td, .dark-bg-indigo-100.btn td a {
+    background-color: #e0e7ff !important;
+  }
+  .dark-border-indigo-100, .dark-border-indigo-100.btn td a, .dark-border-indigo-100.hr td {
+    border-color: #e0e7ff !important;
+  }
+  .dark-text-indigo-200, .dark-text-indigo-200 > tbody > tr > td, .dark-text-indigo-200.btn td a {
+    color: #c7d2fe !important;
+  }
+  .dark-bg-indigo-200, .dark-bg-indigo-200 > tbody > tr > td, .dark-bg-indigo-200.btn td a {
+    background-color: #c7d2fe !important;
+  }
+  .dark-border-indigo-200, .dark-border-indigo-200.btn td a, .dark-border-indigo-200.hr td {
+    border-color: #c7d2fe !important;
+  }
+  .dark-text-indigo-300, .dark-text-indigo-300 > tbody > tr > td, .dark-text-indigo-300.btn td a {
+    color: #a5b4fc !important;
+  }
+  .dark-bg-indigo-300, .dark-bg-indigo-300 > tbody > tr > td, .dark-bg-indigo-300.btn td a {
+    background-color: #a5b4fc !important;
+  }
+  .dark-border-indigo-300, .dark-border-indigo-300.btn td a, .dark-border-indigo-300.hr td {
+    border-color: #a5b4fc !important;
+  }
+  .dark-text-indigo-400, .dark-text-indigo-400 > tbody > tr > td, .dark-text-indigo-400.btn td a {
+    color: #818cf8 !important;
+  }
+  .dark-bg-indigo-400, .dark-bg-indigo-400 > tbody > tr > td, .dark-bg-indigo-400.btn td a {
+    background-color: #818cf8 !important;
+  }
+  .dark-border-indigo-400, .dark-border-indigo-400.btn td a, .dark-border-indigo-400.hr td {
+    border-color: #818cf8 !important;
+  }
+  .dark-text-indigo-500, .dark-text-indigo-500 > tbody > tr > td, .dark-text-indigo-500.btn td a {
+    color: #6366f1 !important;
+  }
+  .dark-bg-indigo-500, .dark-bg-indigo-500 > tbody > tr > td, .dark-bg-indigo-500.btn td a {
+    background-color: #6366f1 !important;
+  }
+  .dark-border-indigo-500, .dark-border-indigo-500.btn td a, .dark-border-indigo-500.hr td {
+    border-color: #6366f1 !important;
+  }
+  .dark-text-indigo-600, .dark-text-indigo-600 > tbody > tr > td, .dark-text-indigo-600.btn td a {
+    color: #4f46e5 !important;
+  }
+  .dark-bg-indigo-600, .dark-bg-indigo-600 > tbody > tr > td, .dark-bg-indigo-600.btn td a {
+    background-color: #4f46e5 !important;
+  }
+  .dark-border-indigo-600, .dark-border-indigo-600.btn td a, .dark-border-indigo-600.hr td {
+    border-color: #4f46e5 !important;
+  }
+  .dark-text-indigo-700, .dark-text-indigo-700 > tbody > tr > td, .dark-text-indigo-700.btn td a {
+    color: #4338ca !important;
+  }
+  .dark-bg-indigo-700, .dark-bg-indigo-700 > tbody > tr > td, .dark-bg-indigo-700.btn td a {
+    background-color: #4338ca !important;
+  }
+  .dark-border-indigo-700, .dark-border-indigo-700.btn td a, .dark-border-indigo-700.hr td {
+    border-color: #4338ca !important;
+  }
+  .dark-text-indigo-800, .dark-text-indigo-800 > tbody > tr > td, .dark-text-indigo-800.btn td a {
+    color: #3730a3 !important;
+  }
+  .dark-bg-indigo-800, .dark-bg-indigo-800 > tbody > tr > td, .dark-bg-indigo-800.btn td a {
+    background-color: #3730a3 !important;
+  }
+  .dark-border-indigo-800, .dark-border-indigo-800.btn td a, .dark-border-indigo-800.hr td {
+    border-color: #3730a3 !important;
+  }
+  .dark-text-indigo-900, .dark-text-indigo-900 > tbody > tr > td, .dark-text-indigo-900.btn td a {
+    color: #312e81 !important;
+  }
+  .dark-bg-indigo-900, .dark-bg-indigo-900 > tbody > tr > td, .dark-bg-indigo-900.btn td a {
+    background-color: #312e81 !important;
+  }
+  .dark-border-indigo-900, .dark-border-indigo-900.btn td a, .dark-border-indigo-900.hr td {
+    border-color: #312e81 !important;
+  }
+  .dark-text-indigo-950, .dark-text-indigo-950 > tbody > tr > td, .dark-text-indigo-950.btn td a {
+    color: #1e1b4b !important;
+  }
+  .dark-bg-indigo-950, .dark-bg-indigo-950 > tbody > tr > td, .dark-bg-indigo-950.btn td a {
+    background-color: #1e1b4b !important;
+  }
+  .dark-border-indigo-950, .dark-border-indigo-950.btn td a, .dark-border-indigo-950.hr td {
+    border-color: #1e1b4b !important;
+  }
+  .dark-text-violet-50, .dark-text-violet-50 > tbody > tr > td, .dark-text-violet-50.btn td a {
+    color: #f5f3ff !important;
+  }
+  .dark-bg-violet-50, .dark-bg-violet-50 > tbody > tr > td, .dark-bg-violet-50.btn td a {
+    background-color: #f5f3ff !important;
+  }
+  .dark-border-violet-50, .dark-border-violet-50.btn td a, .dark-border-violet-50.hr td {
+    border-color: #f5f3ff !important;
+  }
+  .dark-text-violet-100, .dark-text-violet-100 > tbody > tr > td, .dark-text-violet-100.btn td a {
+    color: #ede9fe !important;
+  }
+  .dark-bg-violet-100, .dark-bg-violet-100 > tbody > tr > td, .dark-bg-violet-100.btn td a {
+    background-color: #ede9fe !important;
+  }
+  .dark-border-violet-100, .dark-border-violet-100.btn td a, .dark-border-violet-100.hr td {
+    border-color: #ede9fe !important;
+  }
+  .dark-text-violet-200, .dark-text-violet-200 > tbody > tr > td, .dark-text-violet-200.btn td a {
+    color: #ddd6fe !important;
+  }
+  .dark-bg-violet-200, .dark-bg-violet-200 > tbody > tr > td, .dark-bg-violet-200.btn td a {
+    background-color: #ddd6fe !important;
+  }
+  .dark-border-violet-200, .dark-border-violet-200.btn td a, .dark-border-violet-200.hr td {
+    border-color: #ddd6fe !important;
+  }
+  .dark-text-violet-300, .dark-text-violet-300 > tbody > tr > td, .dark-text-violet-300.btn td a {
+    color: #c4b5fd !important;
+  }
+  .dark-bg-violet-300, .dark-bg-violet-300 > tbody > tr > td, .dark-bg-violet-300.btn td a {
+    background-color: #c4b5fd !important;
+  }
+  .dark-border-violet-300, .dark-border-violet-300.btn td a, .dark-border-violet-300.hr td {
+    border-color: #c4b5fd !important;
+  }
+  .dark-text-violet-400, .dark-text-violet-400 > tbody > tr > td, .dark-text-violet-400.btn td a {
+    color: #a78bfa !important;
+  }
+  .dark-bg-violet-400, .dark-bg-violet-400 > tbody > tr > td, .dark-bg-violet-400.btn td a {
+    background-color: #a78bfa !important;
+  }
+  .dark-border-violet-400, .dark-border-violet-400.btn td a, .dark-border-violet-400.hr td {
+    border-color: #a78bfa !important;
+  }
+  .dark-text-violet-500, .dark-text-violet-500 > tbody > tr > td, .dark-text-violet-500.btn td a {
+    color: #8b5cf6 !important;
+  }
+  .dark-bg-violet-500, .dark-bg-violet-500 > tbody > tr > td, .dark-bg-violet-500.btn td a {
+    background-color: #8b5cf6 !important;
+  }
+  .dark-border-violet-500, .dark-border-violet-500.btn td a, .dark-border-violet-500.hr td {
+    border-color: #8b5cf6 !important;
+  }
+  .dark-text-violet-600, .dark-text-violet-600 > tbody > tr > td, .dark-text-violet-600.btn td a {
+    color: #7c3aed !important;
+  }
+  .dark-bg-violet-600, .dark-bg-violet-600 > tbody > tr > td, .dark-bg-violet-600.btn td a {
+    background-color: #7c3aed !important;
+  }
+  .dark-border-violet-600, .dark-border-violet-600.btn td a, .dark-border-violet-600.hr td {
+    border-color: #7c3aed !important;
+  }
+  .dark-text-violet-700, .dark-text-violet-700 > tbody > tr > td, .dark-text-violet-700.btn td a {
+    color: #6d28d9 !important;
+  }
+  .dark-bg-violet-700, .dark-bg-violet-700 > tbody > tr > td, .dark-bg-violet-700.btn td a {
+    background-color: #6d28d9 !important;
+  }
+  .dark-border-violet-700, .dark-border-violet-700.btn td a, .dark-border-violet-700.hr td {
+    border-color: #6d28d9 !important;
+  }
+  .dark-text-violet-800, .dark-text-violet-800 > tbody > tr > td, .dark-text-violet-800.btn td a {
+    color: #5b21b6 !important;
+  }
+  .dark-bg-violet-800, .dark-bg-violet-800 > tbody > tr > td, .dark-bg-violet-800.btn td a {
+    background-color: #5b21b6 !important;
+  }
+  .dark-border-violet-800, .dark-border-violet-800.btn td a, .dark-border-violet-800.hr td {
+    border-color: #5b21b6 !important;
+  }
+  .dark-text-violet-900, .dark-text-violet-900 > tbody > tr > td, .dark-text-violet-900.btn td a {
+    color: #4c1d95 !important;
+  }
+  .dark-bg-violet-900, .dark-bg-violet-900 > tbody > tr > td, .dark-bg-violet-900.btn td a {
+    background-color: #4c1d95 !important;
+  }
+  .dark-border-violet-900, .dark-border-violet-900.btn td a, .dark-border-violet-900.hr td {
+    border-color: #4c1d95 !important;
+  }
+  .dark-text-violet-950, .dark-text-violet-950 > tbody > tr > td, .dark-text-violet-950.btn td a {
+    color: #2e1065 !important;
+  }
+  .dark-bg-violet-950, .dark-bg-violet-950 > tbody > tr > td, .dark-bg-violet-950.btn td a {
+    background-color: #2e1065 !important;
+  }
+  .dark-border-violet-950, .dark-border-violet-950.btn td a, .dark-border-violet-950.hr td {
+    border-color: #2e1065 !important;
+  }
+  .dark-text-purple-50, .dark-text-purple-50 > tbody > tr > td, .dark-text-purple-50.btn td a {
+    color: #faf5ff !important;
+  }
+  .dark-bg-purple-50, .dark-bg-purple-50 > tbody > tr > td, .dark-bg-purple-50.btn td a {
+    background-color: #faf5ff !important;
+  }
+  .dark-border-purple-50, .dark-border-purple-50.btn td a, .dark-border-purple-50.hr td {
+    border-color: #faf5ff !important;
+  }
+  .dark-text-purple-100, .dark-text-purple-100 > tbody > tr > td, .dark-text-purple-100.btn td a {
+    color: #f3e8ff !important;
+  }
+  .dark-bg-purple-100, .dark-bg-purple-100 > tbody > tr > td, .dark-bg-purple-100.btn td a {
+    background-color: #f3e8ff !important;
+  }
+  .dark-border-purple-100, .dark-border-purple-100.btn td a, .dark-border-purple-100.hr td {
+    border-color: #f3e8ff !important;
+  }
+  .dark-text-purple-200, .dark-text-purple-200 > tbody > tr > td, .dark-text-purple-200.btn td a {
+    color: #e9d5ff !important;
+  }
+  .dark-bg-purple-200, .dark-bg-purple-200 > tbody > tr > td, .dark-bg-purple-200.btn td a {
+    background-color: #e9d5ff !important;
+  }
+  .dark-border-purple-200, .dark-border-purple-200.btn td a, .dark-border-purple-200.hr td {
+    border-color: #e9d5ff !important;
+  }
+  .dark-text-purple-300, .dark-text-purple-300 > tbody > tr > td, .dark-text-purple-300.btn td a {
+    color: #d8b4fe !important;
+  }
+  .dark-bg-purple-300, .dark-bg-purple-300 > tbody > tr > td, .dark-bg-purple-300.btn td a {
+    background-color: #d8b4fe !important;
+  }
+  .dark-border-purple-300, .dark-border-purple-300.btn td a, .dark-border-purple-300.hr td {
+    border-color: #d8b4fe !important;
+  }
+  .dark-text-purple-400, .dark-text-purple-400 > tbody > tr > td, .dark-text-purple-400.btn td a {
+    color: #c084fc !important;
+  }
+  .dark-bg-purple-400, .dark-bg-purple-400 > tbody > tr > td, .dark-bg-purple-400.btn td a {
+    background-color: #c084fc !important;
+  }
+  .dark-border-purple-400, .dark-border-purple-400.btn td a, .dark-border-purple-400.hr td {
+    border-color: #c084fc !important;
+  }
+  .dark-text-purple-500, .dark-text-purple-500 > tbody > tr > td, .dark-text-purple-500.btn td a {
+    color: #a855f7 !important;
+  }
+  .dark-bg-purple-500, .dark-bg-purple-500 > tbody > tr > td, .dark-bg-purple-500.btn td a {
+    background-color: #a855f7 !important;
+  }
+  .dark-border-purple-500, .dark-border-purple-500.btn td a, .dark-border-purple-500.hr td {
+    border-color: #a855f7 !important;
+  }
+  .dark-text-purple-600, .dark-text-purple-600 > tbody > tr > td, .dark-text-purple-600.btn td a {
+    color: #9333ea !important;
+  }
+  .dark-bg-purple-600, .dark-bg-purple-600 > tbody > tr > td, .dark-bg-purple-600.btn td a {
+    background-color: #9333ea !important;
+  }
+  .dark-border-purple-600, .dark-border-purple-600.btn td a, .dark-border-purple-600.hr td {
+    border-color: #9333ea !important;
+  }
+  .dark-text-purple-700, .dark-text-purple-700 > tbody > tr > td, .dark-text-purple-700.btn td a {
+    color: #7e22ce !important;
+  }
+  .dark-bg-purple-700, .dark-bg-purple-700 > tbody > tr > td, .dark-bg-purple-700.btn td a {
+    background-color: #7e22ce !important;
+  }
+  .dark-border-purple-700, .dark-border-purple-700.btn td a, .dark-border-purple-700.hr td {
+    border-color: #7e22ce !important;
+  }
+  .dark-text-purple-800, .dark-text-purple-800 > tbody > tr > td, .dark-text-purple-800.btn td a {
+    color: #6b21a8 !important;
+  }
+  .dark-bg-purple-800, .dark-bg-purple-800 > tbody > tr > td, .dark-bg-purple-800.btn td a {
+    background-color: #6b21a8 !important;
+  }
+  .dark-border-purple-800, .dark-border-purple-800.btn td a, .dark-border-purple-800.hr td {
+    border-color: #6b21a8 !important;
+  }
+  .dark-text-purple-900, .dark-text-purple-900 > tbody > tr > td, .dark-text-purple-900.btn td a {
+    color: #581c87 !important;
+  }
+  .dark-bg-purple-900, .dark-bg-purple-900 > tbody > tr > td, .dark-bg-purple-900.btn td a {
+    background-color: #581c87 !important;
+  }
+  .dark-border-purple-900, .dark-border-purple-900.btn td a, .dark-border-purple-900.hr td {
+    border-color: #581c87 !important;
+  }
+  .dark-text-purple-950, .dark-text-purple-950 > tbody > tr > td, .dark-text-purple-950.btn td a {
+    color: #3b0764 !important;
+  }
+  .dark-bg-purple-950, .dark-bg-purple-950 > tbody > tr > td, .dark-bg-purple-950.btn td a {
+    background-color: #3b0764 !important;
+  }
+  .dark-border-purple-950, .dark-border-purple-950.btn td a, .dark-border-purple-950.hr td {
+    border-color: #3b0764 !important;
+  }
+  .dark-text-fuchsia-50, .dark-text-fuchsia-50 > tbody > tr > td, .dark-text-fuchsia-50.btn td a {
+    color: #fdf4ff !important;
+  }
+  .dark-bg-fuchsia-50, .dark-bg-fuchsia-50 > tbody > tr > td, .dark-bg-fuchsia-50.btn td a {
+    background-color: #fdf4ff !important;
+  }
+  .dark-border-fuchsia-50, .dark-border-fuchsia-50.btn td a, .dark-border-fuchsia-50.hr td {
+    border-color: #fdf4ff !important;
+  }
+  .dark-text-fuchsia-100, .dark-text-fuchsia-100 > tbody > tr > td, .dark-text-fuchsia-100.btn td a {
+    color: #fae8ff !important;
+  }
+  .dark-bg-fuchsia-100, .dark-bg-fuchsia-100 > tbody > tr > td, .dark-bg-fuchsia-100.btn td a {
+    background-color: #fae8ff !important;
+  }
+  .dark-border-fuchsia-100, .dark-border-fuchsia-100.btn td a, .dark-border-fuchsia-100.hr td {
+    border-color: #fae8ff !important;
+  }
+  .dark-text-fuchsia-200, .dark-text-fuchsia-200 > tbody > tr > td, .dark-text-fuchsia-200.btn td a {
+    color: #f5d0fe !important;
+  }
+  .dark-bg-fuchsia-200, .dark-bg-fuchsia-200 > tbody > tr > td, .dark-bg-fuchsia-200.btn td a {
+    background-color: #f5d0fe !important;
+  }
+  .dark-border-fuchsia-200, .dark-border-fuchsia-200.btn td a, .dark-border-fuchsia-200.hr td {
+    border-color: #f5d0fe !important;
+  }
+  .dark-text-fuchsia-300, .dark-text-fuchsia-300 > tbody > tr > td, .dark-text-fuchsia-300.btn td a {
+    color: #f0abfc !important;
+  }
+  .dark-bg-fuchsia-300, .dark-bg-fuchsia-300 > tbody > tr > td, .dark-bg-fuchsia-300.btn td a {
+    background-color: #f0abfc !important;
+  }
+  .dark-border-fuchsia-300, .dark-border-fuchsia-300.btn td a, .dark-border-fuchsia-300.hr td {
+    border-color: #f0abfc !important;
+  }
+  .dark-text-fuchsia-400, .dark-text-fuchsia-400 > tbody > tr > td, .dark-text-fuchsia-400.btn td a {
+    color: #e879f9 !important;
+  }
+  .dark-bg-fuchsia-400, .dark-bg-fuchsia-400 > tbody > tr > td, .dark-bg-fuchsia-400.btn td a {
+    background-color: #e879f9 !important;
+  }
+  .dark-border-fuchsia-400, .dark-border-fuchsia-400.btn td a, .dark-border-fuchsia-400.hr td {
+    border-color: #e879f9 !important;
+  }
+  .dark-text-fuchsia-500, .dark-text-fuchsia-500 > tbody > tr > td, .dark-text-fuchsia-500.btn td a {
+    color: #d946ef !important;
+  }
+  .dark-bg-fuchsia-500, .dark-bg-fuchsia-500 > tbody > tr > td, .dark-bg-fuchsia-500.btn td a {
+    background-color: #d946ef !important;
+  }
+  .dark-border-fuchsia-500, .dark-border-fuchsia-500.btn td a, .dark-border-fuchsia-500.hr td {
+    border-color: #d946ef !important;
+  }
+  .dark-text-fuchsia-600, .dark-text-fuchsia-600 > tbody > tr > td, .dark-text-fuchsia-600.btn td a {
+    color: #c026d3 !important;
+  }
+  .dark-bg-fuchsia-600, .dark-bg-fuchsia-600 > tbody > tr > td, .dark-bg-fuchsia-600.btn td a {
+    background-color: #c026d3 !important;
+  }
+  .dark-border-fuchsia-600, .dark-border-fuchsia-600.btn td a, .dark-border-fuchsia-600.hr td {
+    border-color: #c026d3 !important;
+  }
+  .dark-text-fuchsia-700, .dark-text-fuchsia-700 > tbody > tr > td, .dark-text-fuchsia-700.btn td a {
+    color: #a21caf !important;
+  }
+  .dark-bg-fuchsia-700, .dark-bg-fuchsia-700 > tbody > tr > td, .dark-bg-fuchsia-700.btn td a {
+    background-color: #a21caf !important;
+  }
+  .dark-border-fuchsia-700, .dark-border-fuchsia-700.btn td a, .dark-border-fuchsia-700.hr td {
+    border-color: #a21caf !important;
+  }
+  .dark-text-fuchsia-800, .dark-text-fuchsia-800 > tbody > tr > td, .dark-text-fuchsia-800.btn td a {
+    color: #86198f !important;
+  }
+  .dark-bg-fuchsia-800, .dark-bg-fuchsia-800 > tbody > tr > td, .dark-bg-fuchsia-800.btn td a {
+    background-color: #86198f !important;
+  }
+  .dark-border-fuchsia-800, .dark-border-fuchsia-800.btn td a, .dark-border-fuchsia-800.hr td {
+    border-color: #86198f !important;
+  }
+  .dark-text-fuchsia-900, .dark-text-fuchsia-900 > tbody > tr > td, .dark-text-fuchsia-900.btn td a {
+    color: #701a75 !important;
+  }
+  .dark-bg-fuchsia-900, .dark-bg-fuchsia-900 > tbody > tr > td, .dark-bg-fuchsia-900.btn td a {
+    background-color: #701a75 !important;
+  }
+  .dark-border-fuchsia-900, .dark-border-fuchsia-900.btn td a, .dark-border-fuchsia-900.hr td {
+    border-color: #701a75 !important;
+  }
+  .dark-text-fuchsia-950, .dark-text-fuchsia-950 > tbody > tr > td, .dark-text-fuchsia-950.btn td a {
+    color: #4a044e !important;
+  }
+  .dark-bg-fuchsia-950, .dark-bg-fuchsia-950 > tbody > tr > td, .dark-bg-fuchsia-950.btn td a {
+    background-color: #4a044e !important;
+  }
+  .dark-border-fuchsia-950, .dark-border-fuchsia-950.btn td a, .dark-border-fuchsia-950.hr td {
+    border-color: #4a044e !important;
+  }
+  .dark-text-pink-50, .dark-text-pink-50 > tbody > tr > td, .dark-text-pink-50.btn td a {
+    color: #fdf2f8 !important;
+  }
+  .dark-bg-pink-50, .dark-bg-pink-50 > tbody > tr > td, .dark-bg-pink-50.btn td a {
+    background-color: #fdf2f8 !important;
+  }
+  .dark-border-pink-50, .dark-border-pink-50.btn td a, .dark-border-pink-50.hr td {
+    border-color: #fdf2f8 !important;
+  }
+  .dark-text-pink-100, .dark-text-pink-100 > tbody > tr > td, .dark-text-pink-100.btn td a {
+    color: #fce7f3 !important;
+  }
+  .dark-bg-pink-100, .dark-bg-pink-100 > tbody > tr > td, .dark-bg-pink-100.btn td a {
+    background-color: #fce7f3 !important;
+  }
+  .dark-border-pink-100, .dark-border-pink-100.btn td a, .dark-border-pink-100.hr td {
+    border-color: #fce7f3 !important;
+  }
+  .dark-text-pink-200, .dark-text-pink-200 > tbody > tr > td, .dark-text-pink-200.btn td a {
+    color: #fbcfe8 !important;
+  }
+  .dark-bg-pink-200, .dark-bg-pink-200 > tbody > tr > td, .dark-bg-pink-200.btn td a {
+    background-color: #fbcfe8 !important;
+  }
+  .dark-border-pink-200, .dark-border-pink-200.btn td a, .dark-border-pink-200.hr td {
+    border-color: #fbcfe8 !important;
+  }
+  .dark-text-pink-300, .dark-text-pink-300 > tbody > tr > td, .dark-text-pink-300.btn td a {
+    color: #f9a8d4 !important;
+  }
+  .dark-bg-pink-300, .dark-bg-pink-300 > tbody > tr > td, .dark-bg-pink-300.btn td a {
+    background-color: #f9a8d4 !important;
+  }
+  .dark-border-pink-300, .dark-border-pink-300.btn td a, .dark-border-pink-300.hr td {
+    border-color: #f9a8d4 !important;
+  }
+  .dark-text-pink-400, .dark-text-pink-400 > tbody > tr > td, .dark-text-pink-400.btn td a {
+    color: #f472b6 !important;
+  }
+  .dark-bg-pink-400, .dark-bg-pink-400 > tbody > tr > td, .dark-bg-pink-400.btn td a {
+    background-color: #f472b6 !important;
+  }
+  .dark-border-pink-400, .dark-border-pink-400.btn td a, .dark-border-pink-400.hr td {
+    border-color: #f472b6 !important;
+  }
+  .dark-text-pink-500, .dark-text-pink-500 > tbody > tr > td, .dark-text-pink-500.btn td a {
+    color: #ec4899 !important;
+  }
+  .dark-bg-pink-500, .dark-bg-pink-500 > tbody > tr > td, .dark-bg-pink-500.btn td a {
+    background-color: #ec4899 !important;
+  }
+  .dark-border-pink-500, .dark-border-pink-500.btn td a, .dark-border-pink-500.hr td {
+    border-color: #ec4899 !important;
+  }
+  .dark-text-pink-600, .dark-text-pink-600 > tbody > tr > td, .dark-text-pink-600.btn td a {
+    color: #db2777 !important;
+  }
+  .dark-bg-pink-600, .dark-bg-pink-600 > tbody > tr > td, .dark-bg-pink-600.btn td a {
+    background-color: #db2777 !important;
+  }
+  .dark-border-pink-600, .dark-border-pink-600.btn td a, .dark-border-pink-600.hr td {
+    border-color: #db2777 !important;
+  }
+  .dark-text-pink-700, .dark-text-pink-700 > tbody > tr > td, .dark-text-pink-700.btn td a {
+    color: #be185d !important;
+  }
+  .dark-bg-pink-700, .dark-bg-pink-700 > tbody > tr > td, .dark-bg-pink-700.btn td a {
+    background-color: #be185d !important;
+  }
+  .dark-border-pink-700, .dark-border-pink-700.btn td a, .dark-border-pink-700.hr td {
+    border-color: #be185d !important;
+  }
+  .dark-text-pink-800, .dark-text-pink-800 > tbody > tr > td, .dark-text-pink-800.btn td a {
+    color: #9d174d !important;
+  }
+  .dark-bg-pink-800, .dark-bg-pink-800 > tbody > tr > td, .dark-bg-pink-800.btn td a {
+    background-color: #9d174d !important;
+  }
+  .dark-border-pink-800, .dark-border-pink-800.btn td a, .dark-border-pink-800.hr td {
+    border-color: #9d174d !important;
+  }
+  .dark-text-pink-900, .dark-text-pink-900 > tbody > tr > td, .dark-text-pink-900.btn td a {
+    color: #831843 !important;
+  }
+  .dark-bg-pink-900, .dark-bg-pink-900 > tbody > tr > td, .dark-bg-pink-900.btn td a {
+    background-color: #831843 !important;
+  }
+  .dark-border-pink-900, .dark-border-pink-900.btn td a, .dark-border-pink-900.hr td {
+    border-color: #831843 !important;
+  }
+  .dark-text-pink-950, .dark-text-pink-950 > tbody > tr > td, .dark-text-pink-950.btn td a {
+    color: #500724 !important;
+  }
+  .dark-bg-pink-950, .dark-bg-pink-950 > tbody > tr > td, .dark-bg-pink-950.btn td a {
+    background-color: #500724 !important;
+  }
+  .dark-border-pink-950, .dark-border-pink-950.btn td a, .dark-border-pink-950.hr td {
+    border-color: #500724 !important;
+  }
+  .dark-text-rose-50, .dark-text-rose-50 > tbody > tr > td, .dark-text-rose-50.btn td a {
+    color: #fff1f2 !important;
+  }
+  .dark-bg-rose-50, .dark-bg-rose-50 > tbody > tr > td, .dark-bg-rose-50.btn td a {
+    background-color: #fff1f2 !important;
+  }
+  .dark-border-rose-50, .dark-border-rose-50.btn td a, .dark-border-rose-50.hr td {
+    border-color: #fff1f2 !important;
+  }
+  .dark-text-rose-100, .dark-text-rose-100 > tbody > tr > td, .dark-text-rose-100.btn td a {
+    color: #ffe4e6 !important;
+  }
+  .dark-bg-rose-100, .dark-bg-rose-100 > tbody > tr > td, .dark-bg-rose-100.btn td a {
+    background-color: #ffe4e6 !important;
+  }
+  .dark-border-rose-100, .dark-border-rose-100.btn td a, .dark-border-rose-100.hr td {
+    border-color: #ffe4e6 !important;
+  }
+  .dark-text-rose-200, .dark-text-rose-200 > tbody > tr > td, .dark-text-rose-200.btn td a {
+    color: #fecdd3 !important;
+  }
+  .dark-bg-rose-200, .dark-bg-rose-200 > tbody > tr > td, .dark-bg-rose-200.btn td a {
+    background-color: #fecdd3 !important;
+  }
+  .dark-border-rose-200, .dark-border-rose-200.btn td a, .dark-border-rose-200.hr td {
+    border-color: #fecdd3 !important;
+  }
+  .dark-text-rose-300, .dark-text-rose-300 > tbody > tr > td, .dark-text-rose-300.btn td a {
+    color: #fda4af !important;
+  }
+  .dark-bg-rose-300, .dark-bg-rose-300 > tbody > tr > td, .dark-bg-rose-300.btn td a {
+    background-color: #fda4af !important;
+  }
+  .dark-border-rose-300, .dark-border-rose-300.btn td a, .dark-border-rose-300.hr td {
+    border-color: #fda4af !important;
+  }
+  .dark-text-rose-400, .dark-text-rose-400 > tbody > tr > td, .dark-text-rose-400.btn td a {
+    color: #fb7185 !important;
+  }
+  .dark-bg-rose-400, .dark-bg-rose-400 > tbody > tr > td, .dark-bg-rose-400.btn td a {
+    background-color: #fb7185 !important;
+  }
+  .dark-border-rose-400, .dark-border-rose-400.btn td a, .dark-border-rose-400.hr td {
+    border-color: #fb7185 !important;
+  }
+  .dark-text-rose-500, .dark-text-rose-500 > tbody > tr > td, .dark-text-rose-500.btn td a {
+    color: #f43f5e !important;
+  }
+  .dark-bg-rose-500, .dark-bg-rose-500 > tbody > tr > td, .dark-bg-rose-500.btn td a {
+    background-color: #f43f5e !important;
+  }
+  .dark-border-rose-500, .dark-border-rose-500.btn td a, .dark-border-rose-500.hr td {
+    border-color: #f43f5e !important;
+  }
+  .dark-text-rose-600, .dark-text-rose-600 > tbody > tr > td, .dark-text-rose-600.btn td a {
+    color: #e11d48 !important;
+  }
+  .dark-bg-rose-600, .dark-bg-rose-600 > tbody > tr > td, .dark-bg-rose-600.btn td a {
+    background-color: #e11d48 !important;
+  }
+  .dark-border-rose-600, .dark-border-rose-600.btn td a, .dark-border-rose-600.hr td {
+    border-color: #e11d48 !important;
+  }
+  .dark-text-rose-700, .dark-text-rose-700 > tbody > tr > td, .dark-text-rose-700.btn td a {
+    color: #be123c !important;
+  }
+  .dark-bg-rose-700, .dark-bg-rose-700 > tbody > tr > td, .dark-bg-rose-700.btn td a {
+    background-color: #be123c !important;
+  }
+  .dark-border-rose-700, .dark-border-rose-700.btn td a, .dark-border-rose-700.hr td {
+    border-color: #be123c !important;
+  }
+  .dark-text-rose-800, .dark-text-rose-800 > tbody > tr > td, .dark-text-rose-800.btn td a {
+    color: #9f1239 !important;
+  }
+  .dark-bg-rose-800, .dark-bg-rose-800 > tbody > tr > td, .dark-bg-rose-800.btn td a {
+    background-color: #9f1239 !important;
+  }
+  .dark-border-rose-800, .dark-border-rose-800.btn td a, .dark-border-rose-800.hr td {
+    border-color: #9f1239 !important;
+  }
+  .dark-text-rose-900, .dark-text-rose-900 > tbody > tr > td, .dark-text-rose-900.btn td a {
+    color: #881337 !important;
+  }
+  .dark-bg-rose-900, .dark-bg-rose-900 > tbody > tr > td, .dark-bg-rose-900.btn td a {
+    background-color: #881337 !important;
+  }
+  .dark-border-rose-900, .dark-border-rose-900.btn td a, .dark-border-rose-900.hr td {
+    border-color: #881337 !important;
+  }
+  .dark-text-rose-950, .dark-text-rose-950 > tbody > tr > td, .dark-text-rose-950.btn td a {
+    color: #4c0519 !important;
+  }
+  .dark-bg-rose-950, .dark-bg-rose-950 > tbody > tr > td, .dark-bg-rose-950.btn td a {
+    background-color: #4c0519 !important;
+  }
+  .dark-border-rose-950, .dark-border-rose-950.btn td a, .dark-border-rose-950.hr td {
+    border-color: #4c0519 !important;
+  }
+  .dark-shadow-sm, .dark-shadow-sm.btn td a {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+  }
+  .dark-shadow, .dark-shadow.btn td a {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1) !important;
+  }
+  .dark-shadow-md, .dark-shadow-md.btn td a {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1) !important;
+  }
+  .dark-shadow-lg, .dark-shadow-lg.btn td a {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1) !important;
+  }
+  .dark-shadow-xl, .dark-shadow-xl.btn td a {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+  }
+  .dark-shadow-2xl, .dark-shadow-2xl.btn td a {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+  }
+  .dark-shadow-inner, .dark-shadow-inner.btn td a {
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05) !important;
+  }
+  .dark-shadow-none, .dark-shadow-none.btn td a {
+    box-shadow: 0 0 rgba(0, 0, 0, 0) !important;
+  }
 }/*# sourceMappingURL=bootstrap-head.css.map */

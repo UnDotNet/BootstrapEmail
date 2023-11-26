@@ -1,4 +1,16 @@
 //
+// Shadow style
+//
+@mixin box-shadow-util($class) {
+  #{$class} {
+    &,
+    &.btn td a {
+      @content
+    }
+  }
+}
+
+//
 // Background color
 //
 @mixin background-color-util($class) {

@@ -17,5 +17,17 @@ internal class Color(IHtmlDocument doc) : Base<Color>(doc)
             var contents = node.InnerHtml;
             node.Replace(TemplateNode("table", Doc, classes, contents));
         });
+
+        EachNode("*[class*=dark]", node =>
+        {
+            var classes = node.ClassName;
+            foreach (var className in classes.Split(" "))
+            {
+                if (!className.StartsWith("dark:bg-")) continue;
+                var color = className.Replace("dark:bg-", "dark-bg-");
+                node.ClassList.Remove(className);
+                node.ClassList.Add(color);
+            }
+        });
     }
 }

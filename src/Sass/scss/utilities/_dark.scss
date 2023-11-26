@@ -1,0 +1,18 @@
+@media (prefers-color-scheme: dark) {
+  @each $name, $color in $all-colors {
+    @include color-util('.dark-text-#{$name}') {
+      color: $color !important; 
+    }
+    @include color-util('.dark-bg-#{$name}') {
+      background-color: $color !important; 
+    }
+    @include border-color-util('.dark-border-#{$name}') {
+      border-color: $color !important;
+    }
+  }  
+  @each $name, $width in $shadow-widths {
+    @include box-shadow-util('.dark-shadow#{$name}') {
+      box-shadow: $width !important;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+@each $name, $width in $shadow-widths {
+  @include box-shadow-util('.shadow#{$name}') {
+    box-shadow: $width;
+  }
+}
