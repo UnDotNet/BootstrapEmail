@@ -69,7 +69,7 @@ internal class Base<T>(IHtmlDocument doc) where T : Base<T>
 
     protected void EachNode(string cssLookup, Action<IElement> action)
     {
-        var nodes = Doc.QuerySelectorAll(cssLookup).Reverse(); //.OrderBy<>(n => n.Ancestors.Count()).Reverse();
+        var nodes = Doc.QuerySelectorAll(cssLookup).OrderByDescending(x => x.Ancestors().Count());
         foreach (var node in nodes)
         {
             action(node);
