@@ -16,6 +16,6 @@ internal class VersionComment : Base<VersionComment>
 
     private string GetVersion()
     {
-        return $"  <!-- Compiled with Bootstrap Email DotNet version: {Constants.Version} -->\n";
+        return $"  <!-- Compiled with UnDotNet.BootstrapEmail version: {Constants.Version} -->\n";
     }
 }
