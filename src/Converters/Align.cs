@@ -19,13 +19,6 @@ internal class Align : Base<Align>
             {
                 AlignHelper(node, fullType, type);
             }
-
-            fullType = "text-" + type;
-            foreach (var node in _doc.QuerySelectorAll("." + fullType))
-            {
-                node.SetAttribute("align", type);
-                node.ClassList.Remove(fullType);
-            }
         }
     }
 
